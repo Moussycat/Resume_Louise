@@ -183,64 +183,58 @@ to your project folder if you use the Typst web app.
     ]
 
     #section(title: "Education")[
-      #section-element-advanced(
-        title: "Master’s Degree in Electronics and Computer Engineering,        specialization in Electronics and Connected Devices",
-        info-top-right: "2025",
-        [
-          #set text(size: sizes.text-s2)
-          _Western Graduate School of Electronics, ESEO, Angers, France_
-          #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
-        ],
-      )
 
-      #section-element-advanced(
-        title: "Bachelor’s Degree in Computer and Electronic Engineering",
-        info-top-right: "2023",
-        [
-          #set text(size: sizes.text-s2)
-          _Western Graduate School of Electronics, ESEO, Angers, France_
-          #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
-        ],
-      )
+      // --- LEVEL 1: School (Slightly indented under the "Education" title) ---
+      #pad(left: 0.5em)[
+        #grid(
+          columns: (1fr, auto),
+          align: (left, right),
+          [
+            #text(size: 1.1em, weight: "bold")[Western Graduate School of Electronics, ESEO]
+          ],
+          [
+            #text(style: "italic", fill: gray.darken(20%))[Angers, France]
+          ]
+        )
+      ]
 
-      #section-element-advanced(
-        title: "Western Graduate School of Electronics, ESEO, Angers, France",
-        info-top-right: "2019-2025",
-        [
-          #set text(size: sizes.text-s2)
+      #v(0.6em) // Space between school header and degrees
 
+      // --- LEVEL 2: Degrees (Indented further under the School) ---
+      #pad(left: 1.8em)[
+        
+        // --- MASTER'S DEGREE ---
+        #grid(
+          columns: (1fr, auto),
+          align: (left, right),
+          [
+            *Master’s Degree in Electronics and Computer Engineering* \
+            #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Electronics and Connected Devices]
+          ],
+          [*2025*]
+        )
+        #v(2pt)
+        #icon-list((
+          (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+          (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+        ))
 
+        #v(1.2em) // Spacing between Master's and Bachelor's
 
-          *ingé* _2025_
-          #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
-
-
-
-
-
-          *Bachelor’s Degree in Computer and Electronic Engineering*  _2023_
-          #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
-          *CPGE* _2019_
-          #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
-        ],
-      )
-
-
+        // --- BACHELOR'S DEGREE ---
+        #grid(
+          columns: (1fr, auto),
+          align: (left, right),
+          [*Bachelor’s Degree in Computer and Electronic Engineering*],
+          [*2023*]
+        )
+        #v(2pt)
+        #icon-list((
+          (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+          (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+        ))
+        
+      ]
     ]
 
     #section(title: "Projects")[
