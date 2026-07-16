@@ -7,27 +7,30 @@ to your project folder if you use the Typst web app.
 */
 
 #import "@preview/lavandula:0.1.1": *
+#import "@preview/fontawesome:0.6.2": *
+
 
 #show: lavandula-theme
 
 #set text(lang: "en")
 #set document(
-  title: "John Doe (CV)",
-  author: "John Doe",
+  title: "Louise_POGU_Resume",
+  author: "Louise_POGU",
   date: none,
+  
 )
 
 #cv(
   sidebar-position: "left",
   sidebar: [
-    = John Doe
-    ==== Software Engineer
+    = Louise POGU
+    ==== Electronics Hardware Engineer
 
     #contact-list((
-      (icon: "at", icon-solid: true, text: link("mailto:john@doe.com")[john\@doe.com]),
-      (icon: "linkedin", text: link("https://linkedin.com/in/john-doe-818817")[linkedin.com/in/john-doe-818817]),
-      (icon: "pencil", text: link("https://blog.johndoe.com/")),
-      (icon: "phone", text: "(123) 456-789"),
+      (icon: "at", icon-solid: true, text: link("mailto:louise.pogu@gmail.com")[louise.pogu\@gmail.com]),
+      (icon: "linkedin", text: link("www.linkedin.com/in/louise-pogu")[linkedin.com/in/louise-pogu]),
+      (icon: "phone", text: "(+33) "),
+      (icon:"github", text: link("www.github.com/Moussycat")[github.com/Moussycat])
     ))
 
     #sidebar-section(title: "About me")[
@@ -41,74 +44,72 @@ to your project folder if you use the Typst web app.
 
     #sidebar-section(title: "Technical skills")[
       #skill-group(
-        name: "Frontend Development",
-        icon: "chrome",
+        name: "Electronics",
+        icon: "microchip",
         skills: (
-          "HTML5",
-          "CSS3",
-          "JavaScript (ES6+)",
-          "TypeScript",
-          "React",
-          "Vue.js",
+          "Analog",
+          "Digital",
+          "Power Electronics",
+          "RF (Radio Frequency)",
+          "VHDL",
+          "Verilog",
+          "High and Low Voltage Systems",
+          "Embedded Systems",
+          "PCB Design",
+          "EMC Fundamentals",
+          "High-Frequency Design",
+          "RFID" ,
+          "MMIC",
+          "Multiphysics Systems",
+          "LoRa",
+          "STM32",
+          "ESP32",
         )
       )
 
       #skill-group(
-        name: "Backend Development",
-        icon: "python",
+        name: "Computer Science / IT",
+        icon: "code",
         skills: (
-          "Node.js",
-          "Express.js",
+          "Embedded C",
           "Python",
-          "PHP",
-          "Django",
-          "FastAPI",
-          "REST",
-          "GraphQL",
+          "VBA",
+          "Assembly Language",
+          "Linux",
         )
       )
 
       #skill-group(
-        name: "Databases",
-        icon: "database",
+        name: "Software",
+        icon: "desktop",
         skills: (
-          "MySQL",
-          "SQLite",
-          "MongoDB",
-          "Redis",
-          "PostgreSQL",
-          "Sequelize",
-          "TypeORM",
-          "Database design",
-          "Normalization",
-        )
-      )
-
-      #skill-group(
-        name: "DevOps & Cloud",
-        icon: "cloud",
-        icon-solid: true,
-        skills: (
-          "GitLab CI/CD",
-          "AWS",
-          "EC2",
-          "Lambda",
-          "S3",
-          "CloudWatch",
-          "Nginx",
-          "Bash",
-        )
-      )
-
-      #skill-group(
-        name: "Tools",
-        icon: "tools",
-        skills: (
+          "Altium",
+          "KiCad",
+          "Cadence Virtuoso AMS Designer",
+          "LTSpice",
+          "Vivado",
+          "Arduino",
+          "ADS (Advanced Design System)",
           "Git",
-          "Docker",
-          "Figma",
-          "Jira",
+          "Ansys HFSS",
+          "Microsoft Office Suite",
+          "Canva",
           "Typst",
+        )
+      )
+    ]
+
+        #sidebar-section(title: "Soft skills")[
+      #skill-group(
+        name: "Management & Business",
+        icon: "building",
+        skills: (
+          "Project Management",
+          "Marketing",
+          "Agile Methodology",
+          "Cross-functional Management",
+          "Hierarchical Management",
+          "Environmental Impact"
         )
       )
     ]
@@ -116,57 +117,133 @@ to your project folder if you use the Typst web app.
     #sidebar-section(title: "Languages")[
       #skill-levels((
         // Example flag icons from https://github.com/gosquared/flags/tree/master/flags/flags-iso/shiny/64 (under MIT license)
-        (icon: image("assets/flags/gb.png"), text: "English", level: 100%),
-        (icon: image("assets/flags/fr.png"), text: "French", level: 60%),
+        (icon: image("assets/flags/gb.png"), text: "English, B2", level: 70%),
+        (icon: image("assets/flags/fr.png"), text: "French, Fluent", level: 100%),
       ))
     ]
   ],
   main-content: [
     #section(title: "Experience")[
-      #section-element(
-        title: "Senior Full Stack Developer @ Web World Digital",
-        info: [_2021 --- Current_],
+      #section-element-advanced(
+        title: "Radio Frequency Design Engineer Intern | Thales SIX",
+        info-top-right: "Febuary - August 2025",
+        icon: fa-icon("satellite-dish"),
         [
-          Part of the Core Web Applications team, leading development efforts on a customer-facing SaaS platform and collaborating closely with UI/UX designers. 
           #set text(size: sizes.text-s2)
+          _Cholet, France_
           #icon-list((
-            (icon: "wrench", text: [Led migration of legacy Angular frontend to modern React stack.]),
-            (icon: "rocket", text: [Architected scalable REST API used by over #highlight[150K monthly active users].]),
-            (icon: "graduation-cap", text: [Mentored junior developers and introduced weekly code review practices.]),
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
           ))
         ],
       )
 
-      #section-element(
-        title: "Web Developer @ Ultimate Tech Solutions",
-        info: [_2018 --- 2021_],
+      #section-element-advanced(
+        title: "Embedded Electronics Engineer Intern | Nimbus Centre",
+        info-top-right: "July - November 2023",
+        icon: fa-icon("water"),
         [
-          Joined a startup building HIPAA-compliant medical scheduling software.
           #set text(size: sizes.text-s2)
+          _Cork, Ireland_
           #icon-list((
-            (icon: "scroll", text: [Wrote Python scripts to automate test coverage reports and API contract checks.]),
-            (icon: "react", text: [Built UI components using React and Redux, including calendar widgets and modals.]),
-            (icon: "shield-halved", text: [Gained exposure to secure coding practices and healthcare data privacy standards.]),
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
           ))
         ],
       )
 
-      #section-element(
-        title: "Software Engineering Intern @ Mad Tech",
-        info: [_2017_],
-        lorem(20),
+      #section-element-advanced(
+        title: "Power Electronics Technician Intern | Thales DMS",
+        info-top-right: "March - June 2023",
+        icon: fa-icon("plane"),
+        [
+          #set text(size: sizes.text-s2)
+          _Brest, France_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+        ],
+      )
+
+      #section-element-advanced(
+        title: "R&D Engineer Intern | TRONICO TAME-POWER",
+        info-top-right: "May - July 2022",
+        icon: fa-icon("car-battery"),
+        [
+          #set text(size: sizes.text-s2)
+          _Saint-Philbert-de-Bouaine, France_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+        ],
       )
 
     ]
 
-    #section(title: "Achievements")[
-      #section-element(title: "Awards")[
-        #set text(size: sizes.text-s2)
-        #icon-list((
-          (icon: "trophy", text: [#highlight[Winner of Crazy Hackathon (2023)]: built a smart application to form campus study groups based on subject, schedule and location.]),
-          (icon: "medal", text: [#highlight[OpenAI Hackathon finalist (2022)]: team project using AI for real-time code documentation generation. Helped a nonprofit increase organic traffic by 180% via Next.js SSR tweaks.]),
-        ))
-      ]
+    #section(title: "Education")[
+      #section-element-advanced(
+        title: "Master’s Degree in Electronics and Computer Engineering,        specialization in Electronics and Connected Devices",
+        info-top-right: "2025",
+        [
+          #set text(size: sizes.text-s2)
+          _Western Graduate School of Electronics, ESEO, Angers, France_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+        ],
+      )
+
+      #section-element-advanced(
+        title: "Bachelor’s Degree in Computer and Electronic Engineering",
+        info-top-right: "2023",
+        [
+          #set text(size: sizes.text-s2)
+          _Western Graduate School of Electronics, ESEO, Angers, France_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+        ],
+      )
+
+      #section-element-advanced(
+        title: "Western Graduate School of Electronics, ESEO, Angers, France",
+        info-top-right: "2019-2025",
+        [
+          #set text(size: sizes.text-s2)
+
+
+
+          *ingé* _2025_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+
+
+
+
+
+          *Bachelor’s Degree in Computer and Electronic Engineering*  _2023_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+          *CPGE* _2019_
+          #icon-list((
+            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          ))
+        ],
+      )
+
+
+    ]
+
+    #section(title: "Projects")[
 
       #section-element(title: "Projects")[
         #set text(size: sizes.text-s2)
@@ -184,31 +261,6 @@ to your project folder if you use the Typst web app.
         ))
       ]
     ]
-
-    #section(title: "Education")[
-      #section-element-advanced(
-        title: "Hope's Peak Academy",
-        info-top-left: "2018",
-        info-top-right: "Paris, France",
-        icon: fa-icon("circle-half-stroke"),
-        [
-          #set text(size: sizes.text-s2)
-          _B.S. in Computer Science_ (#highlight[GPA 4.0])
-          #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
-        ],
-      )
-
-      #section-element-advanced(
-        title: "Certificate in Cloud Architecture",
-        info-top-left: "2022",
-        [
-          #set text(size: sizes.text-s2)
-          _Google Cloud Professional Track_
-        ],
-      )
-    ]
   ],
 )
+
