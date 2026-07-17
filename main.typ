@@ -141,6 +141,9 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
             (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "" ,text: [Skills used:
+            
+            VBA, Excel, KiCad, Radio Frequency, MMICs, PCB design, Electronic engineering, ADS])
           ))
         ],
       )
@@ -155,6 +158,9 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
             (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "" ,text: [Skills used:
+            
+            Arduino, ESP32, Electronics engineering, Embedded systems, 3D printing])
           ))
         ],
       )
@@ -169,6 +175,9 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
             (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "" ,text: [Skills used:
+            
+            Power Electronics, High voltage, Analog Electronics, Debugg, Electronics engineering])
           ))
         ],
       )
@@ -181,8 +190,19 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           _Saint-Philbert-de-Bouaine, France_
           #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating this new topology into their products. 
+            
+            - Conducted an in-depth theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics.
+            - Derived duty cycle ratios for different phases and assessed their impact on circuit performance.
+            - Calculated switching and conduction losses for transistors, providing critical insights into efficiency and thermal management.
+            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization.
+            - Designed an Excel tool to optimize duty cycles for each phase, improving system performance.
+            - Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making.]),
+            (icon: "", text: [ 
+              Communicated my results to a broad range of audices, ranging from technical to commercial engineer. This required me to express complex concept in audience approptiate terms and language]),
+            (icon: "" ,text: [#highlight[Skills used:]
+            
+            Power Electronics, Excel, Electronics engineering])
           ))
         ],
       )
