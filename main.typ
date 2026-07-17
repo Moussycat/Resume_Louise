@@ -132,7 +132,7 @@ to your project folder if you use the Typst web app.
   main-content: [
     #section(title: "Experience")[
       #section-element-advanced(
-        title: "Radio Frequency Design Engineer Intern | Thales SIX",
+        title: "Radio Frequency Design Engineer | Intern | Thales SIX",
         info-top-right: "Febuary - August 2025",
         icon: fa-icon("satellite-dish"),
         [
@@ -141,7 +141,7 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
             (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-            (icon: "" ,text: [Skills used:
+            (icon: "" ,text: [#highlight[Skills used:]
             
             VBA, Excel, KiCad, Radio Frequency, MMICs, PCB design, Electronic engineering, ADS])
           ))
@@ -149,7 +149,7 @@ to your project folder if you use the Typst web app.
       )
 
       #section-element-advanced(
-        title: "Embedded Electronics Engineer Intern | Nimbus Centre",
+        title: "Embedded Electronics Engineer | Intern | Nimbus Centre",
         info-top-right: "July - November 2023",
         icon: fa-icon("water"),
         [
@@ -158,7 +158,7 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
             (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-            (icon: "" ,text: [Skills used:
+            (icon: "" ,text: [#highlight[Skills used:]
             
             Arduino, ESP32, Electronics engineering, Embedded systems, 3D printing])
           ))
@@ -166,16 +166,22 @@ to your project folder if you use the Typst web app.
       )
 
       #section-element-advanced(
-        title: "Power Electronics Technician Intern | Thales DMS",
+        title: "Power Electronics Technician | Intern | Thales DMS",
         info-top-right: "March - June 2023",
         icon: fa-icon("plane"),
         [
           #set text(size: sizes.text-s2)
           _Brest, France_
           #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-            (icon: "" ,text: [Skills used:
+            (icon: "", text: [Conducted functional testing of newly manufactured low-to-high voltage converter boards on non-automated test benches to identify defects and ensure product reliability
+            
+            - Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues
+            - Proposed and implemented corrective solutions to resolve identified defects, ensuring optimal performance
+            - Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended repairs
+            - Developed troubleshooting guidelines to streamline future diagnostics and reduce downtime
+
+            ]),
+            (icon: "" ,text: [#highlight[Skills used:]
             
             Power Electronics, High voltage, Analog Electronics, Debugg, Electronics engineering])
           ))
@@ -183,21 +189,21 @@ to your project folder if you use the Typst web app.
       )
 
       #section-element-advanced(
-        title: "R&D Engineer Intern | TRONICO TAME-POWER",
+        title: "R&D Engineer | Intern | TRONICO TAME-POWER",
         info-top-right: "May - July 2022",
         icon: fa-icon("car-battery"),
         [
           #set text(size: sizes.text-s2)
           _Saint-Philbert-de-Bouaine, France_
           #icon-list((
-            (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating this new topology into their products. 
+            (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating this new topology into their products 
             
-            - Conducted an in-depth theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics.
-            - Derived duty cycle ratios for different phases and assessed their impact on circuit performance.
+            - Conducted an in-depth theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics
+            - Derived duty cycle ratios for different phases and assessed their impact on circuit performance
             - Calculated switching and conduction losses for transistors, providing critical insights into efficiency and thermal management.
-            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization.
-            - Designed an Excel tool to optimize duty cycles for each phase, improving system performance.
-            - Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making.]),
+            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization
+            - Designed an Excel tool to optimize duty cycles for each phase, improving system performance
+            - Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making]),
             (icon: "", text: [ 
               Communicated my results to a broad range of audices, ranging from technical to commercial engineer. This required me to express complex concept in audience approptiate terms and language]),
             (icon: "" ,text: [#highlight[Skills used:]
