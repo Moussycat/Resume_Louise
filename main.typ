@@ -241,7 +241,7 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            *Master’s Degree in Electronics and Computer Engineering* \
+            #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Master’s Degree in Electronics and Computer Engineering]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Electronics and Connected Devices]
           ],
           [2023 - 2025]
@@ -259,7 +259,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [*Bachelor’s Degree in Computer and Electronic Engineering*],
+          [ #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering]],
           [2020 - 2023]
         )
         #v(2pt)
@@ -277,7 +277,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [*CPGE, Higher school preparatory classes*],
+          [#text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[CPGE, Higher school preparatory classes]],
           [2019 - 2020]
         )
         #v(2pt)
