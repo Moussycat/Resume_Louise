@@ -37,9 +37,16 @@ to your project folder if you use the Typst web app.
       #set par(justify: true)
       #show par: it => block(width: 100%, it)
 
-      Creative and detail-oriented Software Engineer with over #highlight[5 years of experience] building responsive web applications and dynamic backend services. 
+      Creative and Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems],#highlight[ananlog electronics], and #highlight[embedded systems].
+      I thrive on exploring new technologies, consistently pushing my boundaries to deliver cutting-edge solutions. 
+      My ability to quickly grasp new concepts, combined with a #highlight[rigorous and detail-oriented approach], ensures high-quality and efficient results.
       
-      Passionate about #highlight[clean code], #highlight[user-first design], and #highlight[scalable solutions]. I thrive in fast-paced environments and love collaborating across teams to bring ideas to life.
+      #highlight[A collaborative team player], I value diverse perspectives and believe that collective intelligence leads to richer, more creative outcomes. Open to feedback and always eager to learn, I am committed to delivering my best work while continuously improving my skills.
+      
+      Outside work, I enjoy tinkering with #highlight[DIY electronics projects] and #highlight[mentoring students in STEM], as I believe in sharing knowledge and inspiring the next generation of engineers.
+      
+      I am seeking opportunities to contribute to #highlight[challenging projects] that allow me to grow both technically and creatively, while working alongside talented professionals to drive innovation in electronics.
+ 
     ]
 
     #sidebar-section(title: "Technical skills")[
@@ -211,12 +218,13 @@ to your project folder if you use the Typst web app.
             *Master’s Degree in Electronics and Computer Engineering* \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Electronics and Connected Devices]
           ],
-          [*2025*]
+          [2023 - 2025]
         )
         #v(2pt)
         #icon-list((
           (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-          (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          (icon: "child-reaching", text: [Activity: 
+          - Promoted women in STEM to middle and high school students]),
         ))
 
         #v(1.2em) // Spacing between Master's and Bachelor's
@@ -226,14 +234,29 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [*Bachelor’s Degree in Computer and Electronic Engineering*],
-          [*2023*]
+          [2020 - 2023]
         )
         #v(2pt)
         #icon-list((
           (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-          (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+          (icon: "child-reaching", text: [Activities: 
+          - Equipment Repair Association (Vice President)
+          - Astronomy Association (Communications Office)
+          - Photography Association (Member)]),
         ))
-        
+         
+        #v(1.2em) // Spacing between Bachelor's and CPGE's
+
+        // --- CPGE ---
+        #grid(
+          columns: (1fr, auto),
+          align: (left, right),
+          [*CPGE, Higher school preparatory classes*],
+          [2019 - 2020]
+        )
+        #v(2pt)
+          - Intensive courses in Mathematics, Physics and Engineering
+
       ]
     ]
 
