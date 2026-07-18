@@ -139,8 +139,15 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           _Cholet, France_
           #icon-list((
-            (icon: "", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "", text: [Designed a high-performance RF front-end extension board for radiogoniometry applications within a constrained physical space, targeting defense-related use cases]),
+            (icon: "", text: [
+            - Researched and selected an optimal architecture to meet the project’s technical requirements, including a learning phase to master new concepts and technologies
+            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to ensure maximum efficiency
+            - Developed a VBA-based RF link budget simulator in Excel to model and optimize system performance, enabling data-driven component selection
+            - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout
+            - Optimized PCB routing using KiCad, adhering to high-frequency design best practices to minimize signal loss and interference
+            - Authored comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications
+            ]),
             (icon: "" ,text: [#highlight[Skills used:]
             
             VBA, Excel, KiCad, Radio Frequency, MMICs, PCB design, Electronic engineering, ADS])
