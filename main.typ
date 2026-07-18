@@ -323,30 +323,86 @@ to your project folder if you use the Typst web app.
 
     #section(title: "Projects")[
 
-      #section-element(title: "Watt's up linky ?")[
+      #section-element(title: "Watt's up linky ?, Personnal project")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "house-chimney", text: [MyMealz: a React Native app to plan, share and rate meals (#highlight[10K+ downloads]).]),
-          (icon: "github", icon-solid: true, text: [AI-Powered Portfolio Analyzer: built a tool using GPT-4 API to give feedback on resumes.]),
+          (icon: "house-chimney", text: [Developed a real-time energy monitoring system that retrieves and processes electricity consumption data directly from the Linky smart meter and integrates it into Home Assistant for personalized tracking and analysis]),
+          (icon: "", text: [
+            - Automated data retrieval from the Linky meter using its API
+            - Processing and visualization of consumption data within Home Assistant, enabling real-time monitoring and historical analysis
+            - Customizable dashboards to track energy usage patterns, identify trends, and optimize consumption
+
+            This project enhances energy awareness and provides actionable insights to reduce costs and improve efficiency in household energy management.
+          ]),
+          (icon: "",text: [#highlight[Skills used:]
+            
+          Github, PCB design, Electronic engineering, ESP32, Home Assistant, 3D printing])
         ))
       ]
 
-      #section-element(title: "SeriouScape game")[
+      #section-element(title: "SeriouScape game, Final-year engineering project")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [Regular contributor to `react-hook-form` and `is-even` on GitHub.]),
-          (icon: "gitlab", text: [Submitted over 40 PRs across 10+ public repositories.]),
+          (icon: "graduation-cap", text: [Designed and developed an immersive escape game to reinforce key concepts from the Computer and Electronic Engineering Bachelor’s program while fostering student engagement and school spirit at ESEO. This project also serves as a marketing tool to promote the school and its programs, modernizing its image through an innovative educational approach
+          ]),
+          (icon: "", text: [
+            - Thematic integration of core subjects:
+              - _Mathematics:_ Reinforcing problem-solving and analytical skills
+              - _Physics:_ Solving puzzles based on physical principles
+              - _Electronics:_ Hands-on circuit manipulation and component understanding
+              - _Computer Science:_ Applying programming and algorithmic logic
+              - _Networking:_ Analyzing network packets to solve challenges
+              - _ESEO History:_ Exploring the school’s legacy through puzzles inspired by its 1992 milestones and notable figures
+              - _Angers Heritage:_ Connecting with the city’s cultural and historical landmarks
+            - Post-game reflection:
+              - Highlighted the visionary insights of Chanoine Jeanneteau, ESEO’s founder, who anticipated the concept of "intellectronics"—a precursor to modern AI—as early as the 1970s. This narrative encourages reflection on the evolution of innovation and its societal impact
+
+            This project combines education, teamwork, and creativity to deliver a unique and memorable experience, strengthening students’ connection to ESEO while showcasing the school’s forward-thinking approach
+          ]),
+          (icon: "",text: [#highlight[Skills used:]
+            
+          Github, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Networks, Minitel, Wireshark, Octave, 3D printing])
         ))
       ]
 
-
-      #section-element(title: "Nepture Sense")[
+      #section-element(title: "Nepture Sense, Project of design and development of a connected device project")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [Regular contributor to `react-hook-form` and `is-even` on GitHub.]),
-          (icon: "", text: [Submitted over 40 PRs across 10+ public repositories.]),
+          (icon: "graduation-cap", text: [Designed an innovative system to simplify aquatic space management while ensuring optimal water quality for pools and basins]),
+          (icon: "", text: [
+            - Energy-autonomous outdoor module:
+              - Built to withstand harsh environmental conditions, ensuring durability and reliability
+              - Equipped with sensors for real-time monitoring of critical water parameters, including pH levels, water temperature, and ambient air temperature
+              - Includes a battery level indicator to guarantee uninterrupted operation and peace of mind
+            - Mains-powered base station module:
+              - Receives and processes data transmitted from the outdoor module
+              - Features an intuitive interface that centralizes all pool-related information, providing easy access to real-time insights in one place
+            This technology-driven solution combines practicality and advanced monitoring to deliver a seamless, user-friendly experience for managing pools and aquatic environments
+          ]),
+          (icon: "",text: [#highlight[Skills used:]
+            
+            LoRaWAN, ESP32, STM32WL55, Embedded systems, PCB design, Arduino, Github, 3D printing])
         ))
       ]
+      
+      #section-element(title: "Little Travellers, Project of RFID course")[
+        #set text(size: sizes.text-s2)
+        #icon-list((
+          (icon: "graduation-cap", text: [Developed an RFID-based system as part of a RFID course project, designed to detect the presence of a child in a car seat and display this information on the vehicle’s dashboard. The system can be activated and deactivated directly from the dashboard, ensuring both convenience and security for users]),
+          (icon: "", text: [
+            - Analyzed the Euro NCAP (Child Occupant Protection) standard to ensure compliance with safety and performance requirements for child restraint systems
+            - Conducted a state-of-the-art review of existing RFID solutions for similar applications, identifying best practices and potential improvements
+            - Designed and built two prototypes
+              - A tag integrated into the child seat to detect occupancy
+              - A dashboard interface to display real-time information and allow system activation/deactivation
+            - Collaborated in a team to ensure seamless integration between hardware and user interface, delivering a functional and user-friendly proof of concept
+          ]),
+          (icon: "",text: [#highlight[Skills used:]
+            
+            RFID, Arduino, Embedded system, Raspberry Pi, PCB design])
+        ))
+      ]
+
     ]
   ],
 )
