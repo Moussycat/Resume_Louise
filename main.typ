@@ -139,8 +139,8 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           _Cholet, France_
           #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+            (icon: "", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
             (icon: "" ,text: [#highlight[Skills used:]
             
             VBA, Excel, KiCad, Radio Frequency, MMICs, PCB design, Electronic engineering, ADS])
@@ -156,8 +156,12 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           _Cork, Ireland_
           #icon-list((
-            (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
-            (icon: "book", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
+            (icon: "", text: [Led the feasibility study for developing a low-power IoT prototype designed to monitor coastal erosion in natural environments]),
+            (icon: "", text: [- Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and ESP32 microcontroller
+            - Conducted individual testing of each component to ensure proper functionality and compatibility
+            - Developed and implemented Arduino-based firmware to integrate all components, enabling seamless data acquisition and processing
+            - Designed a 3D model of the prototype enclosure, shaped like a stone to blend seamlessly into the coastal environment, ensuring minimal visual impact while protecting the electronics
+]),
             (icon: "" ,text: [#highlight[Skills used:]
             
             Arduino, ESP32, Electronics engineering, Embedded systems, 3D printing])
@@ -206,7 +210,7 @@ to your project folder if you use the Typst web app.
             - Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making]),
             (icon: "", text: [ 
               Communicated my results to a broad range of audices, ranging from technical to commercial engineer. This required me to express complex concept in audience approptiate terms and language]),
-            (icon: "" ,text: [#highlight[Skills used:]
+            (icon: "",text: [#highlight[Skills used:]
             
             Power Electronics, Excel, Electronics engineering])
           ))
