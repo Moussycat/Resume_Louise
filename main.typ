@@ -128,6 +128,30 @@ to your project folder if you use the Typst web app.
         (icon: image("assets/flags/fr.png"), text: "French, Fluent", level: 100%),
       ))
     ]
+
+    #sidebar-section(title: "Interests")[
+      #skill-group(
+        name: "Art",
+        icon: "palette",
+        skills: (
+          "Watercolor painting",
+          "Theater (9 years)",
+          "Violin (5 years)",
+          "Baking",
+          "Cross stitch",
+        )
+      )
+      #skill-group(
+        name: "Internationnal travel",
+        icon: "plane",
+        skills: (
+          "Europe",
+          "North America",
+          "North Africa",
+        )
+      )
+    ]
+
   ],
   main-content: [
     #section(title: "Experience")[
@@ -299,19 +323,28 @@ to your project folder if you use the Typst web app.
 
     #section(title: "Projects")[
 
-      #section-element(title: "Projects")[
+      #section-element(title: "Watt's up linky ?")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "pepper-hot", text: [MyMealz: a React Native app to plan, share and rate meals (#highlight[10K+ downloads]).]),
-          (icon: "star", icon-solid: true, text: [AI-Powered Portfolio Analyzer: built a tool using GPT-4 API to give feedback on resumes.]),
+          (icon: "house-chimney", text: [MyMealz: a React Native app to plan, share and rate meals (#highlight[10K+ downloads]).]),
+          (icon: "github", icon-solid: true, text: [AI-Powered Portfolio Analyzer: built a tool using GPT-4 API to give feedback on resumes.]),
         ))
       ]
 
-      #section-element(title: "Contributions")[
+      #section-element(title: "SeriouScape game")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "github", text: [Regular contributor to `react-hook-form` and `is-even` on GitHub.]),
+          (icon: "graduation-cap", text: [Regular contributor to `react-hook-form` and `is-even` on GitHub.]),
           (icon: "gitlab", text: [Submitted over 40 PRs across 10+ public repositories.]),
+        ))
+      ]
+
+
+      #section-element(title: "Nepture Sense")[
+        #set text(size: sizes.text-s2)
+        #icon-list((
+          (icon: "graduation-cap", text: [Regular contributor to `react-hook-form` and `is-even` on GitHub.]),
+          (icon: "", text: [Submitted over 40 PRs across 10+ public repositories.]),
         ))
       ]
     ]
