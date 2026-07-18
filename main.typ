@@ -259,7 +259,7 @@ to your project folder if you use the Typst web app.
         )
         #v(2pt)
         #icon-list((
-          (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+          (icon: "graduation-cap", text: [Relevant courses: Electronics hardware design, Radio Frequency, Microwave circuit, Patch antenna design, Embedded systems, Communication protocols ]),
           (icon: "child-reaching", text: [Activity: 
           - Promoted women in STEM to middle and high school students]),
         ))
@@ -275,7 +275,7 @@ to your project folder if you use the Typst web app.
         )
         #v(2pt)
         #icon-list((
-          (icon: "graduation-cap", text: [Relevant courses: Data Structures, Algorithms, Web Application Development, Computer Networks, Operating Systems, Databases & Information Systems]),
+          (icon: "graduation-cap", text: [Relevant courses: Electronics hardware design, Power electronics, Radio frequency, FPGA, Embedded electronics]),
           (icon: "child-reaching", text: [Activities: 
           - Equipment Repair Association (Vice President)
           - Astronomy Association (Communications Office)
