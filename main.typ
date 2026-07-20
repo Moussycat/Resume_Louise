@@ -277,7 +277,7 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Master’s Degree in Electronics and Computer Engineering | WO Master]    \
+            #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[Master’s Degree in Electronics and Computer Engineering]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Electronics and Connected Devices]
           ],
           [2023 - 2025]
@@ -288,11 +288,13 @@ to your project folder if you use the Typst web app.
           
           Electronics hardware design, Radio Frequency, Microwave circuit, Patch antenna design, Embedded systems, Communication protocols ]),
           (icon: "child-reaching", text: [_Activity: _
-          - Promoted women in STEM to middle and high school students
+          - _Promoted women in STEM to middle and high school students_
               - Discussion on prejudices against women
               - Reflecting on their experiences and feelings regarding the subject
               - Raising awareness of stereotypes amongst students and adults (parents/teachers)
-              - Highlighting women who have made contributions to science ]),
+              - Highlighting women who have made contributions to science 
+          - _Astronomy Association (Communication Member)_
+            - Creation stories and publications]),
         ))
 
         #v(1.2em) // Spacing between Master's and Bachelor's
@@ -301,7 +303,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [ #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering | WO/HBO Bachelor]],
+          [ #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering]],
           [2020 - 2023]
         )
         #v(2pt)
@@ -310,16 +312,16 @@ to your project folder if you use the Typst web app.
           
           Electronics hardware design, Power electronics, Radio frequency, FPGA, Embedded electronics]),
           (icon: "child-reaching", text: [_Activities:_ 
-          - Equipment Repair Association (Vice President + Communications Office)
+          - _Equipment Repair Association (Vice President + Communications Office)_
             - Team management
             - Repair managment (invoices, deadlines, complaints,...)
             - Social media manager (stories, publications)
             - Development of the visual identity guidelines
-          - Astronomy Association (Communications Office)
+          - _Astronomy Association (Communications Office)_
             - Social media manager (stories, publications)
             - Development of the visual identity guidelines
             - Production of printed materials (posters, leaflets, kakemono)
-          - Photography Association (Member + Communication Officer)
+          - _Photography Association (Member + Communication Officer)_
             - Social media manager (stories, publications)
             - Photographer for school events]),
         ))
@@ -330,7 +332,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [#text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[CPGE, Higher school preparatory classes]],
+          [#text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[CPGE, Higher school preparatory classes]],
           [2019 - 2020]
         )
         #v(2pt)
@@ -345,7 +347,7 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: 1.1em, weight: "bold")[Jeanne d'Arc High School]
+            #text(size: 1.1em, weight: "semibold")[Jeanne d'Arc High School]
           ],
           [
             #text(style: "italic", fill: gray.darken(20%))[Montaigu-vendée, France]
@@ -360,19 +362,17 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT) | VWO]    \
+            #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT)]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Computer Science and Digital Sciences (ISN)]
           ],
           [2016 - 2019]
         )
         #v(2pt)
         #icon-list((
-          (icon: "graduation-cap", text: [French High School Diploma with a scientific focus, equivalent to a pre-university secondary education diploma (VWO).
+          (icon: "graduation-cap", text: [French High School Diploma with a scientific focus, equivalent to a pre-university secondary education diploma.
 
             - _Specialization in Life and Earth Sciences (SVT)_: Advanced coursework in biology, ecology, and geosciences, providing a strong foundation in natural sciences and scientific reasoning.
             - _Option in Computer Science and Digital Sciences (ISN)_: Focused on programming, algorithms, and digital systems, including hands-on projects in software development and problem-solving.
-
-            This curriculum combines rigorous scientific training with technical skills, fostering analytical thinking, experimentation, and a multidisciplinary approach
           ]),
         ))
       ]
