@@ -277,7 +277,7 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Master’s Degree in Electronics and Computer Engineering]    \
+            #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Master’s Degree in Electronics and Computer Engineering | WO Master]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Electronics and Connected Devices]
           ],
           [2023 - 2025]
@@ -301,7 +301,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [ #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering]],
+          [ #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering | WO/HBO Bachelor]],
           [2020 - 2023]
         )
         #v(2pt)
@@ -335,8 +335,48 @@ to your project folder if you use the Typst web app.
         )
         #v(2pt)
           - Intensive courses in Mathematics, Physics and Engineering
+        #v(8pt)
 
       ]
+      
+      // --- LEVEL 1: School (Slightly indented under the "Education" title) ---
+      #pad(left: 0.5em)[
+        #grid(
+          columns: (1fr, auto),
+          align: (left, right),
+          [
+            #text(size: 1.1em, weight: "bold")[Jeanne d'Arc High School]
+          ],
+          [
+            #text(style: "italic", fill: gray.darken(20%))[Montaigu-vendée, France]
+          ]
+        )
+      ]
+      #v(0.6em) // Space between school header and degrees
+
+      // --- LEVEL 2: Degrees (Indented further under the School) ---
+      #pad(left: 1.8em)[
+        #grid(
+          columns: (1fr, auto),
+          align: (left, right),
+          [
+            #text(size: sizes.text-s1, weight: "bold",  fill: rgb("#414cc8"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT) | VWO]    \
+            #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Computer Science and Digital Sciences (ISN)]
+          ],
+          [2016 - 2019]
+        )
+        #v(2pt)
+        #icon-list((
+          (icon: "graduation-cap", text: [French High School Diploma with a scientific focus, equivalent to a pre-university secondary education diploma (VWO).
+
+            - _Specialization in Life and Earth Sciences (SVT)_: Advanced coursework in biology, ecology, and geosciences, providing a strong foundation in natural sciences and scientific reasoning.
+            - _Option in Computer Science and Digital Sciences (ISN)_: Focused on programming, algorithms, and digital systems, including hands-on projects in software development and problem-solving.
+
+            This curriculum combines rigorous scientific training with technical skills, fostering analytical thinking, experimentation, and a multidisciplinary approach
+          ]),
+        ))
+      ]
+
     ]
 
     #section(title: "Projects")[
