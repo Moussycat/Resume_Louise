@@ -116,7 +116,8 @@ to your project folder if you use the Typst web app.
           "Agile Methodology",
           "Cross-functional Management",
           "Hierarchical Management",
-          "Environmental Impact"
+          "Environmental Impact",
+          "Communication"
         )
       )
     ]
@@ -283,9 +284,15 @@ to your project folder if you use the Typst web app.
         )
         #v(2pt)
         #icon-list((
-          (icon: "graduation-cap", text: [Relevant courses: Electronics hardware design, Radio Frequency, Microwave circuit, Patch antenna design, Embedded systems, Communication protocols ]),
-          (icon: "child-reaching", text: [Activity: 
-          - Promoted women in STEM to middle and high school students]),
+          (icon: "graduation-cap", text: [_Relevant courses:_ 
+          
+          Electronics hardware design, Radio Frequency, Microwave circuit, Patch antenna design, Embedded systems, Communication protocols ]),
+          (icon: "child-reaching", text: [_Activity: _
+          - Promoted women in STEM to middle and high school students
+              - Discussion on prejudices against women
+              - Reflecting on their experiences and feelings regarding the subject
+              - Raising awareness of stereotypes amongst students and adults (parents/teachers)
+              - Highlighting women who have made contributions to science ]),
         ))
 
         #v(1.2em) // Spacing between Master's and Bachelor's
@@ -299,11 +306,22 @@ to your project folder if you use the Typst web app.
         )
         #v(2pt)
         #icon-list((
-          (icon: "graduation-cap", text: [Relevant courses: Electronics hardware design, Power electronics, Radio frequency, FPGA, Embedded electronics]),
-          (icon: "child-reaching", text: [Activities: 
-          - Equipment Repair Association (Vice President)
+          (icon: "graduation-cap", text: [_Relevant courses:_ 
+          
+          Electronics hardware design, Power electronics, Radio frequency, FPGA, Embedded electronics]),
+          (icon: "child-reaching", text: [_Activities:_ 
+          - Equipment Repair Association (Vice President + Communications Office)
+            - Team management
+            - Repair managment (invoices, deadlines, complaints,...)
+            - Social media manager (stories, publications)
+            - Development of the visual identity guidelines
           - Astronomy Association (Communications Office)
-          - Photography Association (Member)]),
+            - Social media manager (stories, publications)
+            - Development of the visual identity guidelines
+            - Production of printed materials (posters, leaflets, kakemono)
+          - Photography Association (Member + Communication Officer)
+            - Social media manager (stories, publications)
+            - Photographer for school events]),
         ))
          
         #v(1.2em) // Spacing between Bachelor's and CPGE's
@@ -361,9 +379,16 @@ to your project folder if you use the Typst web app.
           ]),
           (icon: "",text: [#highlight[Skills used:]
             
-          Github, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Networks, Minitel, Wireshark, Octave, 3D printing])
+          Github, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Networks, Minitel, Wireshark, Octave, 3D printing, Visual design, Managment])
         ))
-      ]
+      ]/* Je ne parle pas du tout de ce que moi j'ai fais
+          - Réalisation visuels des cartes de jeu + journal des étudiants (indices, histoires, informations, ...)
+          - Template de documentation pour uniformiser
+          - Vérification validation des éléments réalisés/ cahier des charges
+          - Supervision des réalisations électroniques
+          - Recherche historique de l'école + journal des étudiants
+          - Gestion de conflis + Répartition du travail en fonction des ressources + Adaptibilité aux changements
+        */
 
       #section-element(title: "Nepture Sense, Project of design and development of a connected device project")[
         #set text(size: sizes.text-s2)
