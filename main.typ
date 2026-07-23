@@ -24,7 +24,7 @@ to your project folder if you use the Typst web app.
   sidebar-position: "left",
   sidebar: [
     = Louise POGU
-    ==== Electronics Hardware Engineer
+    ==== Electronics Engineer
 
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:louise.pogu@gmail.com")[louise.pogu\@gmail.com]),
@@ -136,27 +136,24 @@ to your project folder if you use the Typst web app.
 
     #sidebar-section(title: "Interests")[
       #skill-group(
-        name: "Art",
+        name: "Art & Creativity",
         icon: "palette",
-        skills: (
-          "Watercolor painting", // creativity, patience, rigueur
-          "Theater (9 years)",   // impro
-          "Violin (5 years)",    // perceverance
-          "Baking",              // créativity, patience, rigueur
-          "Cross stitch",        //
-        )   
+        skills: ()
       )
+        From the discipline of violin (5 years) to the spontaneity of theater (9 years), my artistic pursuits have shaped my #highlight[preseverance, adaptibility, and attention to detail]
+
+        Whether I am painting with watercolors, baking cakes, or doing cross-stitch patterns, I feel fulfilled through #highlight[creativity, patience, and precision], qualities I draw on in every project
+
       #skill-group(
         name: "Internationnal travel",
         icon: "plane",
-        skills: (
-          "Europe", // mettre les pays et les échanges ou vacances
-          "North America",
-        )
+        skills: ()
       )
+        Having explored more than 15 countries in Europe and North America (Scotland, Spain, Turkey, Canada, the United States, etc.) has enabled me to develop my cultural awareness and my independence. Each period spent aboard has taught me to value diversity, to communicate in differnet languages and to turn unfamiliar situations into opportunities for personal growth
     ]
-
   ],
+//--------------------------------------------------------------------------------------------------------
+
   main-content: [
     #section(title: "Experience")[
       #section-element-advanced(
@@ -194,7 +191,7 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [Led the feasibility study for developing a low-power IoT prototype designed to monitor coastal erosion in natural environments]),
             (icon: "", text: [
             /*R&D*/- Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and ESP32 microcontroller
-            /*R&D*/- Conducted individual testing of each component to ensure proper functionality and compatibility
+            /*R&D, Test*/- Conducted individual testing of each component to ensure proper functionality and compatibility
             /*R&D, Programmation*/- Developed and implemented Arduino-based firmware to integrate all components, enabling seamless data acquisition and processing
             /*R&D*/- Designed a 3D model of the prototype enclosure, shaped like a stone to blend seamlessly into the coastal environment, ensuring minimal visual impact while protecting the electronics
 ]),
@@ -318,7 +315,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics design, Power electronics, Radio frequency, FPGA, Electronics analog, Electronics digital, Computer Science (algorithms, Web, Networks, OOP), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probabilities, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
+          Electronics design, Power electronics, Radio frequency, FPGA, Electronics analog, Electronics digital, Computer Science (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probabilities, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
           
           Project management (Steering, risk, SWOT, PDCA, critical path, indicators, Marketing, Finances, Communication, Awareness of energy and climate issues
           ]),
@@ -411,7 +408,12 @@ to your project folder if you use the Typst web app.
             
           Github, PCB design, Electronic engineering, ESP32, Home Assistant, 3D printing])
         ))
-      ]
+      ] 
+      /*
+      Concerned about my household’s energy consumption, I worked with someone else to develop an energy monitoring system from scratch.
+      This system retrieves and processes electricity consumption data directly from the Linky smart meter, then integrates it with Home Assistant to enable personalised monitoring and analysis.
+      It provides a overview of energy consumption by the hour, allowing users to track trends, optimise their consumption and make data-driven decisions, all presented clearly in a user-friendly dashboard.
+      */
 
       #section-element(title: "SeriouScape game, Final-year engineering project")[
         #set text(size: sizes.text-s2)
@@ -436,13 +438,11 @@ to your project folder if you use the Typst web app.
             
           Github, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Networks, Minitel, Wireshark, Octave, 3D printing, Visual design, Managment])
         ))
-      ]/* Je ne parle pas du tout de ce que moi j'ai fais
-          - Réalisation visuels des cartes de jeu + journal des étudiants (indices, histoires, informations, ...)
-          - Template de documentation pour uniformiser
-          - Vérification validation des éléments réalisés/ cahier des charges
-          - Supervision des réalisations électroniques
-          - Recherche historique de l'école + journal des étudiants
-          - Gestion de conflis + Répartition du travail en fonction des ressources + Adaptibilité aux changements
+      ]/* I designed and developed an immersive escape game from scratch to reinforce key concepts from the Computer and Electronic Engineering Bachelor’s program at ESEO, while fostering student engagement and school spirit. This project, created by a team of 4, also served as a marketing tool to promote the school and its programs, modernizing its image through an innovative educational approach
+
+      To bring this vision to life, I designed the visual elements of the game cards and the student journal, filling them with clues, stories, and historical information to create a cohesive and engaging experience. I also created a standardized documentation template to ensure consistency across all materials and supervised the electronic implementations, validating each element against the project’s specifications. Beyond the technical aspects, I researched ESEO’s history to craft puzzles inspired by the school’s 1992 milestones and notable figures, while adapting myself to changes to keep the project on track
+
+      The game itself integrated core subjects like Mathematics, Physics, Electronics, Computer Science, and Networking, challenging students to solve puzzles based on real-world principles—from analyzing network packets with Wireshark to manipulating circuits and writing algorithms. It even included a post-game reflection on the visionary insights of Chanoine Jeanneteau, ESEO’s founder, who anticipated the concept of "intellectronics", a precursor to modern AI, as early as the 1970s, sparking discussions on the evolution of innovation
         */
 
       #section-element(title: "Nepture Sense, Project of design and development of a connected device project")[
@@ -464,6 +464,9 @@ to your project folder if you use the Typst web app.
             LoRaWAN, ESP32, STM32WL55, Embedded systems, PCB design, Arduino, Github, 3D printing])
         ))
       ]
+      /*
+      I have designed an innovative system aimed at simplifying the management of aquatic environments whilst ensuring optimum water quality for swimming pools and ponds on a group of 3. This system comprises two key modules: an energy-autonomous outdoor module, designed to withstand harsh environmental conditions, equipped with sensors to monitor pH, water temperature and ambient air temperature in real time, and featuring a battery level indicator to ensure uninterrupted operation. The mains-powered base station module receives and processes the data, providing an intuitive interface that centralises all pool-related information for easy access to the data. This technological solution combines convenience with advanced monitoring to offer a seamless and user-friendly experience for managing aquatic environments
+      */
       
       #section-element(title: "Little Travellers, Project of RFID course")[
         #set text(size: sizes.text-s2)
@@ -482,7 +485,12 @@ to your project folder if you use the Typst web app.
             RFID, Arduino, Embedded system, Raspberry Pi, PCB design])
         ))
       ]
+      /*
+      I developed an RFID-based system as part of a team project in a RFID course, designed to detect the presence of a child in a car seat and display this information on the vehicle’s dashboard. The system can be activated and deactivated directly from the dashboard, ensuring both convenience and security for users
 
+      To ensure compliance with safety and performance standards, I analyzed the Euro NCAP (Child Occupant Protection) requirements and conducted a state-of-the-art review of existing RFID solutions, identifying best practices and potential improvements. We then designed and built two prototypes: a tag integrated into the child seat to detect occupancy, and a dashboard interface to display real-time information and allow users to control the system. By collaborating closely with my team, we ensured seamless integration between the hardware and user interface, delivering a functional and user-friendly proof of concept
+
+      */
     ]
   ],
 )
