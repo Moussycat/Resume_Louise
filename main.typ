@@ -37,9 +37,9 @@ to your project folder if you use the Typst web app.
       #set par(justify: true)
       #show par: it => block(width: 100%, it)
 
-      Creative and Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems],#highlight[ananlog electronics], and #highlight[embedded systems].
-      I thrive on exploring new technologies, consistently pushing my boundaries to deliver cutting-edge solutions. 
-      My ability to quickly grasp new concepts, combined with a #highlight[rigorous and detail-oriented approach], ensures high-quality and efficient results.
+      Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems],#highlight[  analog electronics], and #highlight[embedded systems].
+      I thrive on exploring new technologies (LoRa) // consistently pushing my boundaries to deliver cutting-edge solutions.  NOPE
+      My ability to quickly grasp new concepts, combined with a #highlight[rigorous and detail-oriented approach].
       
       #highlight[A collaborative team player], I value diverse perspectives and believe that collective intelligence leads to richer, more creative outcomes. Open to feedback and always eager to learn, I am committed to delivering my best work while continuously improving my skills.
       
@@ -64,13 +64,15 @@ to your project folder if you use the Typst web app.
           "Embedded Systems",
           "PCB Design",
           "EMC Fundamentals",
+          "Antenna Design",
           "High-Frequency Design",
           "RFID" ,
           "MMIC",
           "Multiphysics Systems",
           "LoRa",
-          "STM32",
-          "ESP32",
+          "STM",
+          "Espressif",
+          "Nordic S.M."
         )
       )
 
@@ -83,6 +85,7 @@ to your project folder if you use the Typst web app.
           "VBA",
           "Assembly Language",
           "Linux",
+          "Rapsberry Pi",
         )
       )
 
@@ -125,7 +128,7 @@ to your project folder if you use the Typst web app.
     #sidebar-section(title: "Languages")[
       #skill-levels((
         // Example flag icons from https://github.com/gosquared/flags/tree/master/flags/flags-iso/shiny/64 (under MIT license)
-        (icon: image("assets/flags/gb.png"), text: "English, B2", level: 70%),
+        (icon: image("assets/flags/gb.png"), text: "English, B2", level: 75%),
         (icon: image("assets/flags/fr.png"), text: "French, Fluent", level: 100%),
       ))
     ]
@@ -135,20 +138,19 @@ to your project folder if you use the Typst web app.
         name: "Art",
         icon: "palette",
         skills: (
-          "Watercolor painting",
-          "Theater (9 years)",
-          "Violin (5 years)",
-          "Baking",
-          "Cross stitch",
-        )
+          "Watercolor painting", // creativity, patience, rigueur
+          "Theater (9 years)",   // impro
+          "Violin (5 years)",    // perceverance
+          "Baking",              // créativity, patience, rigueur
+          "Cross stitch",        //
+        )   
       )
       #skill-group(
         name: "Internationnal travel",
         icon: "plane",
         skills: (
-          "Europe",
+          "Europe", // mettre les pays et les échanges ou vacances
           "North America",
-          "North Africa",
         )
       )
     ]
@@ -166,12 +168,12 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Designed a high-performance RF front-end extension board for radiogoniometry applications within a constrained physical space, targeting defense-related use cases]),
             (icon: "", text: [
-            - Researched and selected an optimal architecture to meet the project’s technical requirements, including a learning phase to master new concepts and technologies
-            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to ensure maximum efficiency
-            - Developed a VBA-based RF link budget simulator in Excel to model and optimize system performance, enabling data-driven component selection
-            - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout
-            - Optimized PCB routing using KiCad, adhering to high-frequency design best practices to minimize signal loss and interference
-            - Authored comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications
+            /*R&D*/- Researched and selected an optimal architecture to meet the project’s technical requirements, including a learning phase to master new concepts and technologies
+            /*RF, PCB Design*/- Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to ensure maximum efficiency
+            /*RF, Programmation*/- Developed a VBA-based RF link budget simulator in Excel to model and optimize system performance, enabling data-driven component selection
+            /*PCB Design*/- Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout
+            /*PCB Design*/- Optimized PCB routing using KiCad, adhering to high-frequency design best practices to minimize signal loss and interference
+            /*R&D*/- Authored comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications
             ]),
             (icon: "" ,text: [#highlight[Skills used:]
             
@@ -189,10 +191,11 @@ to your project folder if you use the Typst web app.
           _Cork, Ireland_
           #icon-list((
             (icon: "", text: [Led the feasibility study for developing a low-power IoT prototype designed to monitor coastal erosion in natural environments]),
-            (icon: "", text: [- Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and ESP32 microcontroller
-            - Conducted individual testing of each component to ensure proper functionality and compatibility
-            - Developed and implemented Arduino-based firmware to integrate all components, enabling seamless data acquisition and processing
-            - Designed a 3D model of the prototype enclosure, shaped like a stone to blend seamlessly into the coastal environment, ensuring minimal visual impact while protecting the electronics
+            (icon: "", text: [
+            /*R&D*/- Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and ESP32 microcontroller
+            /*R&D*/- Conducted individual testing of each component to ensure proper functionality and compatibility
+            /*R&D, Programmation*/- Developed and implemented Arduino-based firmware to integrate all components, enabling seamless data acquisition and processing
+            /*R&D*/- Designed a 3D model of the prototype enclosure, shaped like a stone to blend seamlessly into the coastal environment, ensuring minimal visual impact while protecting the electronics
 ]),
             (icon: "" ,text: [#highlight[Skills used:]
             
@@ -211,10 +214,10 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Conducted functional testing of newly manufactured low-to-high voltage converter boards on non-automated test benches to identify defects and ensure product reliability
             
-            - Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues
-            - Proposed and implemented corrective solutions to resolve identified defects, ensuring optimal performance
-            - Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended repairs
-            - Developed troubleshooting guidelines to streamline future diagnostics and reduce downtime
+            /*R&D, Test*/- Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues
+            /*R&D, Test*/- Proposed and implemented corrective solutions to resolve identified defects, ensuring optimal performance
+            /*R&D*/- Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended repairs
+            /*R&D, Test*/- Developed troubleshooting guidelines to streamline future diagnostics and reduce downtime
 
             ]),
             (icon: "" ,text: [#highlight[Skills used:]
@@ -234,12 +237,12 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating this new topology into their products 
             
-            - Conducted an in-depth theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics
-            - Derived duty cycle ratios for different phases and assessed their impact on circuit performance
-            - Calculated switching and conduction losses for transistors, providing critical insights into efficiency and thermal management.
-            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization
-            - Designed an Excel tool to optimize duty cycles for each phase, improving system performance
-            - Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making]),
+            /*R&D*/- Conducted an in-depth theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics
+            /*R&D*/- Derived duty cycle ratios for different phases and assessed their impact on circuit performance
+            /*R&D*/- Calculated switching and conduction losses for transistors, providing critical insights into efficiency and thermal management.
+            /*R&D*/- Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization
+            /*R&D*/- Designed an Excel tool to optimize duty cycles for each phase, improving system performance
+            /*R&D*/- Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making]),
             (icon: "", text: [ 
               Communicated my results to a broad range of audices, ranging from technical to commercial engineer. This required me to express complex concept in audience approptiate terms and language]),
             (icon: "",text: [#highlight[Skills used:]
@@ -260,11 +263,10 @@ to your project folder if you use the Typst web app.
           align: (left, right),
           [
             #text(size: 1.1em, weight: "bold")[Western Graduate School of Electronics, ESEO]
-          ],
-          [
-            #text(style: "italic", fill: gray.darken(20%))[Angers, France]
           ]
         )
+        #set text(size: sizes.text-s2)
+          _Angers, France_
       ]
 
       #v(0.6em) // Space between school header and degrees
@@ -283,10 +285,14 @@ to your project folder if you use the Typst web app.
           [2023 - 2025]
         )
         #v(2pt)
+        #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [_Relevant courses:_ 
+          (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics hardware design, Radio Frequency, Microwave circuit, Patch antenna design, Embedded systems, Communication protocols ]),
+          Electronics analog design, Radio Frequency, Microwave circuits, Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harversting, Multiphysics systems
+
+          Crisis Management, Change Management, Economic intelligence, Ethics, Employment law
+          ]),
           (icon: "child-reaching", text: [_Activity: _
           - _Promoted women in STEM to middle and high school students_
               - Discussion on prejudices against women
@@ -298,19 +304,23 @@ to your project folder if you use the Typst web app.
         ))
 
         #v(1.2em) // Spacing between Master's and Bachelor's
-
+        #set text(size: sizes.text-s1)
         // --- BACHELOR'S DEGREE ---
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [ #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering]],
+          [ #text(size: sizes.text-s1, weight: "semibold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering]],
           [2020 - 2023]
         )
         #v(2pt)
+        #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [_Relevant courses:_ 
+          (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics hardware design, Power electronics, Radio frequency, FPGA, Embedded electronics]),
+          Electronics design, Power electronics, Radio frequency, FPGA, Electronics analog, Electronics digital, Computer Science (algorithms, Web, Networks, OOP), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probabilities, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
+          
+          Project management (Steering, risk, SWOT, PDCA, critical path, indicators, Marketing, Finances, Communication, Awareness of energy and climate issues
+          ]),
           (icon: "child-reaching", text: [_Activities:_ 
           - _Equipment Repair Association (Vice President + Communications Office)_
             - Team management
@@ -327,7 +337,7 @@ to your project folder if you use the Typst web app.
         ))
          
         #v(1.2em) // Spacing between Bachelor's and CPGE's
-
+        #set text(size: sizes.text-s1)
         // --- CPGE ---
         #grid(
           columns: (1fr, auto),
@@ -336,11 +346,16 @@ to your project folder if you use the Typst web app.
           [2019 - 2020]
         )
         #v(2pt)
-          - Intensive courses in Mathematics, Physics and Engineering
+        #set text(size: sizes.text-s2)
+        #icon-list((
+          (icon: "person-chalkboard", text: [_Itensive courses:_ 
+          
+          Mathematics (algebra, analysis, probabilities), Physics (electronics, mechanics, optics, electromagnetism, thermodynamics, Elements of statistical thermodynamics) and Engineering (programming, electronics)
+          ]),
+        ))
         #v(8pt)
 
       ]
-      
       // --- LEVEL 1: School (Slightly indented under the "Education" title) ---
       #pad(left: 0.5em)[
         #grid(
@@ -348,31 +363,30 @@ to your project folder if you use the Typst web app.
           align: (left, right),
           [
             #text(size: 1.1em, weight: "semibold")[Jeanne d'Arc High School]
-          ],
-          [
-            #text(style: "italic", fill: gray.darken(20%))[Montaigu-vendée, France]
           ]
         )
+        #set text(size: sizes.text-s2)
+          _Montaigu-Vendée, France_
       ]
       #v(0.6em) // Space between school header and degrees
-
+      
       // --- LEVEL 2: Degrees (Indented further under the School) ---
       #pad(left: 1.8em)[
         #grid(
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT)]    \
+            #text(size: sizes.text-s1, weight: "semibold",  fill: rgb("#414cc8"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT)]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Computer Science and Digital Sciences (ISN)]
           ],
           [2016 - 2019]
         )
         #v(2pt)
+        #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [French High School Diploma with a scientific focus, equivalent to a pre-university secondary education diploma.
+          (icon: "person-chalkboard", text: [French High School Diploma with a scientific focus, equivalent to a pre-university secondary education diploma.
 
-            - _Specialization in Life and Earth Sciences (SVT)_: Advanced coursework in biology, ecology, and geosciences, providing a strong foundation in natural sciences and scientific reasoning.
-            - _Option in Computer Science and Digital Sciences (ISN)_: Focused on programming, algorithms, and digital systems, including hands-on projects in software development and problem-solving.
+            - _Specialization in Life and Earth Sciences (SVT)_: Advanced coursework in biology, ecology, and geosciences, providing a strong foundation in natural sciences and scientific reasoning
           ]),
         ))
       ]
