@@ -37,13 +37,14 @@ to your project folder if you use the Typst web app.
       #set par(justify: true)
       #show par: it => block(width: 100%, it)
 
-      Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems],#highlight[  analog electronics], and #highlight[embedded systems].
-      I thrive on exploring new technologies (LoRa) // consistently pushing my boundaries to deliver cutting-edge solutions.  NOPE
-      My ability to quickly grasp new concepts, combined with a #highlight[rigorous and detail-oriented approach].
+      Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems],#highlight[analog electronics], and #highlight[embedded systems].
+
+      Driven by a #highlight[curiosity for understanding how things work], I enjoy #highlight[exploring new technologies] such as LoRa for long-range, low-power communication, as well as innovative PCB design methods, like rounded traces. My ability #highlight[to go into detail and quickly understanding new concepts] enables me #highlight[to grasp the challenges] of a technology or project and #highlight[anticipate] future questions and research needs.
+
+      During my studies and interships, I had opportunities to #highlight[work within multidsciplinary teams] composed of software, mechanical, electronics experts, as well as technicians, engineers and managers. Their varied perspectives and advice have helped me expand my understanding and have #highlight[reinforced my constant desire to learn].
       
-      #highlight[A collaborative team player], I value diverse perspectives and believe that collective intelligence leads to richer, more creative outcomes. Open to feedback and always eager to learn, I am committed to delivering my best work while continuously improving my skills.
-      
-      Outside work, I enjoy tinkering with #highlight[DIY electronics projects] and #highlight[mentoring students in STEM], as I believe in sharing knowledge and inspiring the next generation of engineers.
+      Outside work, I enjoy working on #highlight[electronics projects], at the moment, I’m building a Pomodoro timer #highlight[from scratch] to put on my desk, or working on #highlight[improving project].
+      I’ve always enjoyed sharing my knowledge and experiences with others, whether by #highlight[teaching courses or by promoting women in STEM]. 
       
       I am seeking opportunities to contribute to #highlight[challenging projects] that allow me to grow both technically and creatively, while working alongside talented professionals to drive innovation in electronics.
  
