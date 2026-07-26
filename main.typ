@@ -41,11 +41,11 @@ to your project folder if you use the Typst web app.
 
       Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems], #highlight[analog electronics], and #highlight[embedded systems]
 
-      Driven by a #highlight[curiosity for understanding how things work], I enjoy #highlight[exploring new technologies] such as LoRaWAN for long-range, low-power communication like Neptune Sense project. My ability #highlight[to go into detail and quickly understanding new concepts] enables me #highlight[to grasp the challenges] of technologies or projects and #highlight[anticipate] future questions and research needs.
+      Driven by a #highlight[curiosity for understanding how things work], I enjoy #highlight[exploring new technologies] such as LoRaWAN for long-range, low-power communication. My ability #highlight[to go into detail and quickly understanding new concepts] enables me #highlight[to grasp the challenges] of technologies and projects, and #highlight[anticipate] future questions and research needs.
       
-      On my free time, I enjoy working on #highlight[electronics projects], at the moment, I am building a Pomodoro timer #highlight[from scratch] to put on my desk. It’s a method that helps you work more efficiently. Through this project, I wanted to #highlight[try out new technologies such as LVGL].
+      In my free time, I enjoy working on #highlight[electronics projects]. At the moment I am building a Pomodoro timer #highlight[from scratch] to put on my desk. This is a method to help you work more efficiently. Through this project, I want to #highlight[try out new technologies such as LVGL].
 
-      I have always enjoyed sharing my knowledge and experiences with others, whether by #highlight[teaching courses or by promoting women in STEM].
+      I have always enjoyed sharing my knowledge and experience with others, whether by #highlight[teaching or by promoting women in STEM].
       
       I am seeking opportunities to contribute to #highlight[challenging projects] that allow me to grow both technically and creatively, while working alongside talented professionals to drive innovation in electronics.
     ]
@@ -65,7 +65,7 @@ to your project folder if you use the Typst web app.
         icon: "earth-europe",
         skills: ()
       )
-        Having explored more than 15 countries in Europe and North America has enabled me to develop my cultural awareness and my independence. Each period spent aboard has taught me to value #highlight[diversity, to communicate in differnet languages] and to turn unfamiliar situations into opportunities for personal growth.
+        Exploring more than 15 countries in Europe and North America has enabled me to develop my cultural awareness and my independence. Each period spent aboard has taught me to value #highlight[diversity, to communicate in differnet languages] and to turn unfamiliar situations into opportunities for personal growth.
     ]
     #v(20pt) // put Technical Skills to the other page
 
@@ -169,16 +169,16 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Designed a high-performance RF front-end extension board for radiogoniometry applications within a constrained physical space, targeting defense-related use cases]),
             (icon: "", text: [
-            - Researched and selected an optimal architecture to meet the project’s technical requirements, including a learning phase to master new concepts and technologies/*R&D*/
-            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to ensure maximum efficiency/*RF, PCB Design*/
-            - Developed a VBA-based RF link budget simulator in Excel to model and optimize system performance, enabling data-driven component selection/*RF, Programmation*/
+            - Researched and selected an optimal architecture to meet the project’s technical requirements, including a investing phase to master new concepts and technologies/*R&D*/
+            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to acheive maximum efficiency/*RF, PCB Design*/
+            - Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation*/
             - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design*/
-            - Optimized PCB routing using KiCad, adhering to high-frequency design best practices to minimize signal loss and interference/*PCB Design*/
-            - Authored comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications/*R&D*/
+            - Optimized PCB routing using KiCad, following to high-frequency design best practice to minimize signal loss and interference/*PCB Design*/
+            - Created comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications/*R&D*/
             ]),
             (icon: "" ,text: [#highlight[Skills used:]
             
-            VBA, Excel, KiCad, Radio Frequency, MMICs, PCB design, Electronic engineering, ADS])
+            VBA, Excel, KiCad, Radio Frequency Design, MMICs, PCB design, Electronic engineering, ADS])
           ))
         ],
       )
@@ -191,11 +191,11 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           _Cork, Ireland_
           #icon-list((
-            (icon: "", text: [Led the feasibility study for developing a low-power IoT prototype designed to monitor coastal erosion in natural environments]),
+            (icon: "", text: [Led a feasibility study to develop a low-power IoT prototype to monitor coastal erosion in natural environments]),
             (icon: "", text: [
-            - Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and ESP32 microcontroller /*R&D*/
-            - Conducted individual testing of each component to ensure proper functionality and compatibility /*R&D, Test*/
-            - Developed and implemented Arduino-based firmware to integrate all components, enabling seamless data acquisition and processing /*R&D, Programmation*/
+            - Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and microcontroller /*R&D*/
+            - Conducted validation of each component to ensure proper functionality and compatibility /*R&D, Test*/
+            - Developed and implemented firmware to integrate all components, enabling seamless data acquisition and processing /*R&D, Programmation*/
             - Designed a 3D model of the prototype enclosure, shaped like a stone to blend seamlessly into the coastal environment, ensuring minimal visual impact while protecting the electronics/*R&D*/
 ]),
             (icon: "" ,text: [#highlight[Skills used:]
@@ -216,8 +216,8 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [Conducted functional testing of newly manufactured low-to-high voltage converter boards on non-automated test benches to identify defects and ensure product reliability
             
             - Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues/*R&D, Test*/
-            - Proposed and implemented corrective solutions to resolve identified defects, ensuring optimal performance/*R&D, Test*/
-            - Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended repairs/*R&D*/
+            - Proposed and implemented corrective actions to resolve identified defects, ensuring optimal performance/*R&D, Test*/
+            - Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended mitigation strategies/*R&D*/
             - Developed troubleshooting guidelines to streamline future diagnostics and reduce downtime/*R&D, Test*/
 
             ]),
@@ -236,13 +236,13 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           _Saint-Philbert-de-Bouaine, France_
           #icon-list((
-            (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating this new topology into their products. A converter topology refers to a specific way of connecting electronic components (coils, switches, capacitors) within a power circuit
-            - Conducted an theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
+            (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating a new converter topology into their products. This is a specific way of connecting electronic components (coils, switches, capacitors) within a power circuit
+            - Conducted an theorical study of a non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
             - Derived duty cycle ratios for different phases and assessed their impact on circuit performance/*R&D*/
-            - Calculated switching and conduction losses for transistors, providing critical insights into efficiency and thermal management/*R&D*/
+            - Calculated switching and conduction losses, providing critical insights into efficiency and thermal management/*R&D*/
             - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/
-            - Designed an Excel tool to optimize duty cycles for each phase, improving system performance/*R&D*/
-            - Created a loss calculation spreadsheet to evaluate transistor losses in the ideal configuration/*R&D*/
+            - Designed a tool to optimize duty cycles for each phase, improving system performance/*R&D*/
+            - Created calculation spreadsheet to evaluate switching losses in the ideal configuration/*R&D*/
             ]),
             (icon: "",text: [#highlight[Skills used:]
 
@@ -301,9 +301,9 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics design, Power electronics, Radio frequency, FPGA, Electronics analog, Electronics digital, Computer Sciences (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probabilities, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
+          Electronics design, Power electronics, Radio frequency, FPGA, Electronics analog, Electronics digital, Computer Sciences (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
           
-          Project management (Steering, risk, SWOT, PDCA, critical path, indicators, Marketing, Finances, Communication, Awareness of energy and climate issues
+          Project management (Steering, risk, SWOT, PDCA, critical path, indicators), Marketing, Finance, Communication, Awareness of energy and climate issues
           ]),
         ))
         #set text(size: sizes.text-s1)
@@ -320,7 +320,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Itensive courses:_ 
           
-          Mathematics (algebra, analysis, probabilities), Physics (electronics, mechanics, optics, electromagnetism, thermodynamics, Elements of statistical thermodynamics) and Engineering (programming, electronics)
+          Mathematics (algebra, analysis, probability), Physics (electronics, mechanics, optics, electromagnetism, thermodynamics, Elements of statistical thermodynamics) and Engineering (programming, electronics)
           ]),
         ))
         #v(5pt)
@@ -371,7 +371,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "house-chimney", text: [Linky is a mandatory electricity meter in French households. It features a telecommunications interface known as TIC, which allows you to retrieve your consumption data.
 
-          Together with a friend, we wanted to be able to retrieve this information to monitor our electricity consumption. To do this, we made modifications to an existing project, such as designing a PCB to ensure quality and adapting the proposed circuit to make the project more versatile. Once the information reaches the board’s microcontroller, we send the data to our Home Assistant, which allows us to view our consumption hour by hour in graph form.
+          Together with a friend, we wanted to be able to retrieve this information to monitor our electricity consumption. To do this, we made modifications to an existing project, including designing a PCB to ensure quality and adapting the proposed circuit to make the project more versatile. The board’s microcontroller, forwards the data from the TIC to our Home Assistant, which allows us to view our consumption hour by hour in graph form.
 ]),
           (icon: "",text: [#highlight[Skills used:]
             
@@ -382,8 +382,8 @@ to your project folder if you use the Typst web app.
       #section-element(title: "Pomodoro desk, Personnal project")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "house-chimney", text: [Pomodoro is a time-management method designed to improve productivity. It involves four cycles of 25-30 minutes work, followed by a 5-10 minutes break, before taking a final 30 minutes break.
-          To expand my skills in embedded electronics, I learn a new open-source graphics library for screens, LVGL, and this project was the perfect way to put it to use. As I wanted to have this device on my desktop to avoid using my phone or watch, I decided to create a little work companion. This project is currently in development. 
+          (icon: "house-chimney", text: [Pomodoro is a time-management method to improve productivity. It involves four cycles of 25-30 minutes work, 5-10 minute breaks, before taking a final 30 minutes break.
+          To expand my skills in embedded electronics, I wanted to learn a new open-source graphics library for screens, LVGL, and this project was the perfect way to put it to use. As I wanted to have this device on my desktop to avoid using my phone or watch, I decided to create a little work companion. This project is currently in development. 
           ]),
           (icon: "",text: [#highlight[Skills used:]
             
@@ -396,7 +396,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "graduation-cap", text: [SeriouScape game is an escape game created from scratch to reinforce students’ knowledge through a new format.
           
-          To bring this project to life, I worked on the game’s visual design (cards, students’ journals, poster) as well as on historical and electronic puzzles. For example, I created a puzzle based on logic gates. These are analog electronic components that do operation on binary inputs of 1s or 0s to make decisions. Thanks to a clue hidden in the students’ journal, they were able to work out the type of operation and the code they needed to find at the end of the circuit. Aside from the technical and visual aspects, I was also able to work on standardising the electronic documentation to ensure consistency and make it easier to find information more quickly.
+          To bring this project to life I worked on the game’s visual design (cards, students’ journals, poster) as well as on historical and electronic puzzles. For example, I created a puzzle based on logic gates, components that perform operations on binary inputs to make decisions. Thanks to a clue hidden in the students’ journal, they were able to work out the type of operation and the code they needed to find at the end of the circuit. Aside from the technical and visual aspects, I was also able to work on standardising the electronic documentation to ensure consistency and make it easier to find information more quickly.
           ]),
           (icon: "",text: [#highlight[Skills used:]
             
@@ -407,9 +407,9 @@ to your project folder if you use the Typst web app.
       #section-element(title: "Neptune Sense, Project of design and development of a connected device project")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [Wanted to create a smart aquatic management system and concidering a long-range  and low-power utilisation, we agreed to use LoRaWan for communications to create our connected devices.
+          (icon: "graduation-cap", text: [We wanted to create a smart aquatic management system with long-range  and low-power communication characteristics, it was decided to use LoRaWan.
           
-          This group project resulted in the development of two key modules: an energy-autonomous outdoor module, fitted with sensors to monitor pH, water temperature and ambient air temperature, and equipped with a battery level indicator to ensure uninterrupted operation. It transmits all this information to the mains-powered base station module, which receives and processes the data, providing a user-friendly visual interface that centralises all information relating to the pool and the weather conditions at the base station’s location.
+          This group project resulted in the development of two key modules: an energy-autonomous outdoor module, fitted with sensors to monitor pH, water temperature and ambient air temperature, and equipped with a battery level indicator to ensure uninterrupted operation. It transmited all this information to the mains-powered base station module, which received and processed the data, providing a user-friendly visual interface that centralises all information relating to the pool and the weather conditions at the base station’s location.
 ]),
           (icon: "",text: [#highlight[Skills used:]
             
@@ -422,9 +422,9 @@ to your project folder if you use the Typst web app.
       #section-element(title: "Little Travellers, Project of RFID course")[
         #set text(size: sizes.text-s2)
         #icon-list((
-          (icon: "graduation-cap", text: [Inspired by the need to prevent tragic incidents of children being left in vehicles, Little Travellers wasn't just about technical feasability, it was about creating a solution with real-world impact. We developped an RFID-based system that detects the presence of a child in a car seat and alerts the driver via the vehicle’s dashboard and outside people.
+          (icon: "graduation-cap", text: [Inspired by the need to prevent tragic incidents of children being left in vehicles, Little Travellers wasn't just about technical feasability, it was about creating a solution with real-world impact. We developped an RFID-based system that detects the presence of a child in a car seat and alerts the driver via the vehicle’s dashboard.
 
-          To ensure compliance with safety and performance standards, I analysed the Euro NCAP requirements (child occupant protection) and carried out a review of the state of the art in existing RFID solutions, thereby identifying best practices and potential improvements. We then designed and built two prototypes: a tag integrated into the child seat to detect the presence of a child, and a dashboard interface to display information and allow users to control the system (on/off). Through close collaboration with my team, we ensured seamless integration between the hardware and the user interface, resulting in a functional and user-friendly proof of concept. 
+          To ensure compliance with safety and performance standards, I analysed the Euro NCAP requirements (child occupant protection) and carried out a review of the state of the art in existing RFID solutions, identifying best practices and potential improvements. We designed and built two prototypes: a tag integrated into the child seat to detect  presence, and a dashboard interface to display information and allow users to control the system (on/off). Through close collaboration throughout the team, we ensured seamless integration between the hardware and the user interface, resulting in a functional and user-friendly proof of concept. 
           ]),
           (icon: "",text: [#highlight[Skills used:]
             
@@ -443,7 +443,7 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           #icon-list((
             (icon: "", text: [
-              - Discussion on prejudices against women
+              - Stimulated discussion on prejudices against women
               - Reflecting on their experiences and feelings regarding the subject
               - Raising awareness of stereotypes amongst students and adults (parents/teachers)
               - Highlighting women who have made contributions to science]),
