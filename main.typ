@@ -29,7 +29,7 @@ to your project folder if you use the Typst web app.
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:louise.pogu@gmail.com")[louise.pogu\@gmail.com]),
       (icon: "linkedin", text: link("www.linkedin.com/in/louise-pogu")[linkedin.com/in/louise-pogu]),
-      (icon: "phone", text: "(+33) 630566816"),
+      (icon: "phone", text: "+33 (0)630566816"),
       (icon:"github", text: link("www.github.com/Moussycat")[github.com/Moussycat])
     ))
 
@@ -39,7 +39,7 @@ to your project folder if you use the Typst web app.
       #set par(justify: true)
       #show par: it => block(width: 100%, it)
 
-      Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems],#highlight[analog electronics], and #highlight[embedded systems]
+      Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems], #highlight[analog electronics], and #highlight[embedded systems]
 
       Driven by a #highlight[curiosity for understanding how things work], I enjoy #highlight[exploring new technologies] such as LoRaWAN for long-range, low-power communication like Neptune Sense project. My ability #highlight[to go into detail and quickly understanding new concepts] enables me #highlight[to grasp the challenges] of technologies or projects and #highlight[anticipate] future questions and research needs.
       
@@ -237,18 +237,15 @@ to your project folder if you use the Typst web app.
           _Saint-Philbert-de-Bouaine, France_
           #icon-list((
             (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potental benefits of integrating this new topology into their products. A converter topology refers to a specific way of connecting electronic components (coils, switches, capacitors) within a power circuit
-            
-            - Conducted an in-depth theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
+            - Conducted an theorical study of the non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
             - Derived duty cycle ratios for different phases and assessed their impact on circuit performance/*R&D*/
             - Calculated switching and conduction losses for transistors, providing critical insights into efficiency and thermal management/*R&D*/
             - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/
             - Designed an Excel tool to optimize duty cycles for each phase, improving system performance/*R&D*/
-            - Created a detailed loss calculation spreadsheet to evaluate transistor losses in the ideal configuration, supporting data-driven decision-making/*R&D*/
+            - Created a loss calculation spreadsheet to evaluate transistor losses in the ideal configuration/*R&D*/
             ]),
-            (icon: "", text: [ 
-              Communicated my results to a broad range of audices, ranging from technical to commercial engineer. This required me to express complex concept in audience approptiate terms and language]),
             (icon: "",text: [#highlight[Skills used:]
-            
+
             Power Electronics, Excel, Electronics engineering])
           ))
         ],
@@ -277,7 +274,7 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[Master’s Degree in Electronics and Computer Engineering]    \
+            #text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#eb6262"))[Master’s Degree in Electronics and Computer Engineering]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Electronics and Connected Devices]
           ],
           [#text(size: sizes.text-s3)[2023 - 2025]]
@@ -297,7 +294,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [ #text(size: sizes.text-s1, weight: "semibold",  fill: rgb("#414cc8"))[Bachelor’s Degree in Computer and Electronic Engineering]],
+          [ #text(size: sizes.text-s1, weight: "semibold",  fill: rgb("#eb6262"))[Bachelor’s Degree in Computer and Electronic Engineering]],
           [#text(size: sizes.text-s3)[2020 - 2023]]
         )
         #set text(size: sizes.text-s2)
@@ -314,7 +311,7 @@ to your project folder if you use the Typst web app.
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          [#text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#414cc8"))[CPGE, Higher school preparatory classes]],
+          [#text(size: sizes.text-title2, weight: "semibold",  fill: rgb("#eb6262"))[CPGE, Higher school preparatory classes]],
           [
           #text(size: sizes.text-s3)[2019 - 2020]
           ]
@@ -349,7 +346,7 @@ to your project folder if you use the Typst web app.
           columns: (1fr, auto),
           align: (left, right),
           [
-            #text(size: sizes.text-s1, weight: "semibold",  fill: rgb("#414cc8"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT)]    \
+            #text(size: sizes.text-s1, weight: "semibold",  fill: rgb("#eb6262"))[Baccalauréat Scientifique (BAC S) – Life and Earth Sciences (SVT)]    \
             #text(size: sizes.text-s2, style: "italic", fill: gray.darken(10%))[Specialization in Computer Science and Digital Sciences (ISN)]
           ],
           [
