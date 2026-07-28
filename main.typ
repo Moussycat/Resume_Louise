@@ -37,19 +37,18 @@ to your project folder if you use the Typst web app.
     
     #sidebar-section(title: "About me")[
       #set par(justify: true)
-      #show par: it => block(width: 100%, it)
+      #show par: it => block(width: 100%, it) 
 
-      Electronics Engineer specializing in #highlight[electronics design], #highlight[RF systems], #highlight[analog electronics], and #highlight[embedded systems]
-
-      Driven by a #highlight[curiosity for understanding how things work], I enjoy #highlight[exploring new technologies] such as LoRaWAN for long-range, low-power communication. My ability #highlight[to go into detail and quickly understanding new concepts] enables me #highlight[to grasp the challenges] of technologies and projects, and #highlight[anticipate] future questions and research needs.
+      I am Louise, an electronics engineer who enjoys #highlight[understanding how things work] and turning ideas into practical designs. I am particularly interested in #highlight[RF, analog electronics, PCB design and embedded systems], and I like being involved from the first calculations through to a working prototype. 
       
-      In my free time, I enjoy working on #highlight[electronics projects]. At the moment I am building a Pomodoro timer #highlight[from scratch] to put on my desk. This is a method to help you work more efficiently. Through this project, I want to #highlight[try out new technologies such as LVGL].
+      My ability to #highlight[go into detail] and #highlight[quickly understanding new concepts] enables me to grasp the challenges of technologies and projects, and anticipate future questions and research needs.
 
-      I have always enjoyed sharing my knowledge and experience with others, whether by #highlight[teaching or by promoting women in STEM].
+      I am naturally #highlight[curious] and enjoy #highlight[learning new technologies/techniques] by building and turning ideas into pratical designs. I also working on #highlight[electronics projects] in my free time. At the moment I am creating a Pomodoro timer from scratch to put on my desk and try out new technologies such as LVGL in the process.
+
+      I have always enjoyed sharing my knowledge and experience with others, whether by #highlight[teaching] or by #highlight[promoting women in STEM].
       
-      I am seeking opportunities to contribute to #highlight[challenging projects] that allow me to grow both technically and creatively, while working alongside talented professionals to drive innovation in electronics.
+      I am looking for a role where I can keep growing as an engineer, have fun by contributing to challenging projects and work with talented people driving innovation in electronics.
     ]
-
     #sidebar-section(title: "Interests")[
       #skill-group(
         name: "Art & Creativity",
@@ -67,7 +66,7 @@ to your project folder if you use the Typst web app.
       )
         Exploring more than 15 countries in Europe and North America has enabled me to develop my cultural awareness and my independence. Each period spent abroad has taught me to value #highlight[diversity, to communicate in different languages] and to turn unfamiliar situations into opportunities for personal growth.
     ]
-    #v(20pt) // put Technical Skills to the other page
+    #v(50pt) // put Technical Skills to the other page
 
     #sidebar-section(title: "Technical skills")[
       #skill-group(
@@ -356,7 +355,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [French High School Diploma with a scientific focus, equivalent to a pre-university secondary education diploma.
 
-            - _Specialization in Life and Earth Sciences (SVT)_: Coursework in biology and geosciences, providing a strong foundation in natural sciences and scientific reasoning
+            - Specialization in Life and Earth Sciences (SVT): Coursework in biology and geosciences, providing a strong foundation in natural sciences and scientific reasoning
           ]),
         ))
       ]
@@ -384,7 +383,7 @@ to your project folder if you use the Typst web app.
         ))
         #highlight[Skills used:]
           
-        #link("https://github.com/L-E-Lab/Watt-s-up-Linky")[GitHub repository in English], Electronics engineering, PCB design, 3D printing, KiCad, Home Assistant, ESP32
+        #link("https://github.com/L-E-Lab/Watt-s-up-Linky")[_GitHub repository in English_], Electronics engineering, PCB design, 3D printing, KiCad, Home Assistant, ESP32
       ]
       
         #pad(left: 1em)[
@@ -406,7 +405,7 @@ to your project folder if you use the Typst web app.
         ))
         #highlight[Skills used:]
           
-        #link("https://github.com/Moussycat/Desk_pomodoro")[GitHub repository in English], Electronics engineering, 3D printing, Creativity, ESP32, Display, LVGL
+        #link("https://github.com/Moussycat/Desk_pomodoro")[_GitHub repository in English_], Electronics engineering, 3D printing, Creativity, ESP32, Display, LVGL
         ]
         
 
@@ -453,7 +452,7 @@ to your project folder if you use the Typst web app.
         ))
         #highlight[Skills used:]
           
-        #link("https://github.com/Moussycat/Projet_Neptune_Sense")[GitHub repository in French], Management, Embedded systems, PCB design, Computer engineering, 3D printing, Altium, Arduino, Canva, LoRaWAN, ESP32, STM32WL55, MQTT, Meteo API
+        #link("https://github.com/Moussycat/Projet_Neptune_Sense")[_GitHub repository in French_], Management, Embedded systems, PCB design, Computer engineering, 3D printing, Altium, Arduino, Canva, LoRaWAN, ESP32, STM32WL55, MQTT, Meteo API
       ]
       /* 
       */
