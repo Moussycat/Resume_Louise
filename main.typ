@@ -41,7 +41,7 @@ to your project folder if you use the Typst web app.
 
       I am Louise, an electronics engineer who enjoys #highlight[understanding how things work] and turning ideas into practical designs. I am particularly interested in #highlight[RF, analog electronics, PCB design and embedded systems], and I like being involved from the first calculations through to a working prototype. 
       
-      My ability to #highlight[go into detail] and #highlight[quickly understanding new concepts] enables me to grasp the challenges of technologies and projects, and anticipate future questions and research needs.
+      My ability to #highlight[go into detail] and #highlight[quickly understand new concepts] enables me to grasp the challenges of technologies and projects, and anticipate future questions and research needs.
 
       I am naturally #highlight[curious] and enjoy #highlight[learning new technologies/techniques] by building and turning ideas into practical designs. I am also working on #highlight[electronics projects] in my free time. At the moment I am creating a Pomodoro timer from scratch to put on my desk and try out new technologies such as LVGL in the process.
 
@@ -168,7 +168,7 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [Designed a high-performance RF front-end extension board for radiogoniometry applications within a constrained physical space, targeting defense-related use cases.]),
             (icon: "", text: [
             - Researched and selected an optimal architecture to meet the project’s technical requirements, including a investing phase to master new concepts and technologies/*R&D*/
-            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to acheive maximum efficiency/*RF, PCB Design*/
+            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to achieve maximum efficiency/*RF, PCB Design*/
             - Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation, R&D*/
             - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design, R&D*/
             - Optimized PCB routing using KiCad, following to high-frequency design best practice to minimize signal loss and interference/*PCB Design, R&D*/
@@ -235,7 +235,7 @@ to your project folder if you use the Typst web app.
           _Saint-Philbert-de-Bouaine, France_
           #icon-list((
             (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potential benefits of integrating a new converter topology into their products. This is a specific way of connecting electronic components (coils, switches, capacitors) within a power circuit.
-            - Conducted an theoretical study of a non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
+            - Conducted a theoretical study of a non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
             - Derived duty cycle ratios for different phases and assessed their impact on circuit performance/*R&D*/
             - Calculated switching and conduction losses, providing critical insights into efficiency and thermal management/*R&D*/
             - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/
@@ -281,7 +281,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics analog design( LTspice), Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
+          Analog electronics design( LTspice), Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
 
           Crisis Management, Change Management, Economic intelligence, Ethics, Employment law
           ]),
@@ -299,7 +299,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics design, Power electronics, Radio frequency, FPGA (Verilog, VHDL), Electronics analog, Electronics digital, Computer Sciences (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
+          Electronics design, Power electronics, Radio frequency, FPGA (Verilog, VHDL), Analog electronics, Digital electronics, Computer Sciences (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
           
           Project management (Steering, risk, SWOT, PDCA, critical path, indicators), Marketing, Finance, Communication, Awareness of energy and climate issues, Agile Management (applied during a project)
           ]),
@@ -429,7 +429,7 @@ to your project folder if you use the Typst web app.
         ))
         #highlight[Skills used:]
           
-        GitHub repository private, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Minitel, Linux, 3D printing, Creativity, Visual design
+        Private GitHub repository, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Minitel, Linux, 3D printing, Creativity, Visual design
       ]
 
       #pad(left: 1em)[
@@ -447,7 +447,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "graduation-cap", text: [We wanted to create a smart aquatic management system with long-range  and low-power communication characteristics, it was decided to use LoRaWAN.
           
-          This group project resulted in the development of two key modules: an energy-autonomous outdoor module, fitted with sensors to monitor pH, water temperature and ambient air temperature, and equipped with a battery level indicator to ensure uninterrupted operation. It transmited all this information to the mains-powered base station module, which received and processed the data, providing a user-friendly visual interface that centralises all information relating to the pool and the weather conditions at the base station’s location.
+          This group project resulted in the development of two key modules: an energy-autonomous outdoor module, fitted with sensors to monitor pH, water temperature and ambient air temperature, and equipped with a battery level indicator to ensure uninterrupted operation. It transmitted all this information to the mains-powered base station module, which received and processed the data, providing a user-friendly visual interface that centralises all information relating to the pool and the weather conditions at the base station’s location.
 ]),
         ))
         #highlight[Skills used:]
@@ -471,7 +471,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "graduation-cap", text: [Inspired by the need to prevent tragic incidents of children being left in vehicles, Little Travellers wasn't just about technical feasibility, it was about creating a solution with real-world impact. We developed an RFID-based system that detects the presence of a child in a car seat and alerts the driver via the vehicle’s dashboard.
 
-          To ensure compliance with safety and performance standards, I analysed the Euro NCAP requirements (child occupant protection) and carried out a review of the state of the art in existing RFID solutions, identifying best practices and potential improvements. We designed and built two prototypes: a tag integrated into the child seat to detect  presence, and a dashboard interface to display information and allow users to control the system (on/off). Through close collaboration the team, we ensured seamless integration between the hardware and the user interface, resulting in a functional and user-friendly proof of concept. 
+          To ensure compliance with safety and performance standards, I analysed the Euro NCAP requirements (child occupant protection) and carried out a review of the state of the art in existing RFID solutions, identifying best practices and potential improvements. We designed and built two prototypes: a tag integrated into the child seat to detect  presence, and a dashboard interface to display information and allow users to control the system (on/off). Through close collaboration with the team, we ensured seamless integration between the hardware and the user interface, resulting in a functional and user-friendly proof of concept. 
           ]),
         ))
         #highlight[Skills used:]
@@ -493,7 +493,7 @@ to your project folder if you use the Typst web app.
               - Stimulated discussion on prejudices against women
               - Reflecting on their experiences and feelings regarding the subject
               - Raising awareness of stereotypes amongst students and adults (parents/teachers)
-              - Highlighting women who have made contributions to science]),
+              - Highlighting women who have made significant contributions to science]),
           ))
           I promote women in STEM because I believe everyone should have the opportunity to pursue an interest in science and engineering without being held back by stereotypes.
           Having been fortunate enough to have mentors who showed me that it was possible to think outside the box, I now want to pass on this message so that more women can envision themselves as engineers, innovators, and leaders in these fields.
@@ -510,7 +510,7 @@ to your project folder if you use the Typst web app.
               - Social media manager (stories, publications)
               - Development of the visual identity guidelines
               - Production of printed materials (posters, leaflets, kakemono)
-              - Management of people on communication group
+              - Management of people in the communication team
             ]),
           ))
         ],
@@ -523,7 +523,7 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           #icon-list((
             (icon: "", text: [
-              - Management (teams, invoices, deadlines, complaints,...)
+              - Management (teams, invoices, deadlines, complaints, ...)
               - Social media manager (stories, publications)
               - Development of the visual identity guidelines
             ]),
