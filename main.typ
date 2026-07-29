@@ -43,7 +43,7 @@ to your project folder if you use the Typst web app.
       
       My ability to #highlight[go into detail] and #highlight[quickly understanding new concepts] enables me to grasp the challenges of technologies and projects, and anticipate future questions and research needs.
 
-      I am naturally #highlight[curious] and enjoy #highlight[learning new technologies/techniques] by building and turning ideas into pratical designs. I also working on #highlight[electronics projects] in my free time. At the moment I am creating a Pomodoro timer from scratch to put on my desk and try out new technologies such as LVGL in the process.
+      I am naturally #highlight[curious] and enjoy #highlight[learning new technologies/techniques] by building and turning ideas into practical designs. I am also working on #highlight[electronics projects] in my free time. At the moment I am creating a Pomodoro timer from scratch to put on my desk and try out new technologies such as LVGL in the process.
 
       I have always enjoyed sharing my knowledge and experience with others, whether by #highlight[teaching] or by #highlight[promoting women in STEM].
       
@@ -169,9 +169,9 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [
             - Researched and selected an optimal architecture to meet the project’s technical requirements, including a investing phase to master new concepts and technologies/*R&D*/
             - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to acheive maximum efficiency/*RF, PCB Design*/
-            - Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation*/
-            - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design*/
-            - Optimized PCB routing using KiCad, following to high-frequency design best practice to minimize signal loss and interference/*PCB Design*/
+            - Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation, R&D*/
+            - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design, R&D*/
+            - Optimized PCB routing using KiCad, following to high-frequency design best practice to minimize signal loss and interference/*PCB Design, R&D*/
             - Created comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications/*R&D*/
             ]),
             (icon: "" ,text: [#highlight[Skills used:]
@@ -495,6 +495,8 @@ to your project folder if you use the Typst web app.
               - Raising awareness of stereotypes amongst students and adults (parents/teachers)
               - Highlighting women who have made contributions to science]),
           ))
+          I promote women in STEM because I believe everyone should have the opportunity to pursue an interest in science and engineering without being held back by stereotypes.
+          Having been fortunate enough to have mentors who showed me that it was possible to think outside the box, I now want to pass on this message so that more women can envision themselves as engineers, innovators, and leaders in these fields.
         ],
       )
 
