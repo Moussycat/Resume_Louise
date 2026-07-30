@@ -168,9 +168,9 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [Designed a high-performance RF front-end extension board for radiogoniometry applications within a constrained physical space, targeting defense-related use cases.]),
             (icon: "", text: [
             - Researched and selected an optimal architecture to meet the project’s technical requirements, including a investing phase to master new concepts and technologies/*R&D*/
-            - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to achieve maximum efficiency/*RF, PCB Design*/
+            /*- Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to achieve maximum efficiency/*RF, PCB Design*/*/
             - Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation, R&D*/
-            - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design, R&D*/
+            /*- Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design, R&D*/*/
             - Optimized PCB routing using KiCad, following to high-frequency design best practice to minimize signal loss and interference/*PCB Design, R&D*/
             - Created comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications/*R&D*/
             ]),
@@ -191,7 +191,7 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Led a feasibility study to develop a low-power IoT prototype to monitor coastal erosion in natural environments.]),
             (icon: "", text: [
-            - Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and microcontroller /*R&D*/
+            /*- Selected electronic modules and components based on project specifications, including an accelerometer, temperature sensor, SD module, and microcontroller /*R&D*/*/
             - Conducted validation of each component to ensure proper functionality and compatibility /*R&D, Test*/
             - Developed and implemented firmware to integrate all components, enabling seamless data acquisition and processing /*R&D, Programmation*/
             - Designed a 3D model of the prototype enclosure, shaped like a stone to blend seamlessly into the coastal environment, ensuring minimal visual impact while protecting the electronics/*R&D*/
@@ -213,9 +213,9 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Conducted functional testing of newly manufactured low-to-high voltage converter boards for the Mirage 2000-5, on non-automated test benches to identify defects and ensure product reliability.
             
-            - Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues/*R&D, Test*/
+            /*- Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues/*R&D, Test*/*/
             - Proposed and implemented corrective actions to resolve identified defects, ensuring optimal performance/*R&D, Test*/
-            - Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended mitigation strategies/*R&D*/
+            /*- Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended mitigation strategies/*R&D*/*/
             - Developed troubleshooting guidelines to streamline future diagnostics and reduce downtime/*R&D, Test*/
 
             ]),
@@ -235,10 +235,10 @@ to your project folder if you use the Typst web app.
           _Saint-Philbert-de-Bouaine, France_
           #icon-list((
             (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potential benefits of integrating a new converter topology into their products. This is a specific way of connecting electronic components (coils, switches, capacitors) within a power circuit.
-            - Conducted a theoretical study of a non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
+            /*- Conducted a theoretical study of a non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
             - Derived duty cycle ratios for different phases and assessed their impact on circuit performance/*R&D*/
             - Calculated switching and conduction losses, providing critical insights into efficiency and thermal management/*R&D*/
-            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/
+            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/*/
             - Designed a tool to optimize duty cycles for each phase, improving system performance/*R&D*/
             - Created calculation spreadsheet to evaluate switching losses in the ideal configuration/*R&D*/
             ]),
@@ -281,9 +281,9 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Analog electronics design( LTspice), Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
+          Analog electronics design /*(LTspice)*/, Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols/*, Brushless motors*/, RFID, EMC fundamentals, Battery, Energy harvesting/*, Multiphysics systems*/
 
-          Crisis Management, Change Management, Economic intelligence, Ethics, Employment law
+          Crisis Management, Change Management/*, Economic intelligence, Ethics, Employment law*/
           ]),
         ))
 
@@ -299,11 +299,12 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics design, Power electronics, Radio frequency, FPGA (Verilog, VHDL), Analog electronics, Digital electronics, Computer Sciences (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
+          Electronics design, Power electronics, Radio frequency, FPGA (Verilog, VHDL), Analog electronics, Digital electronics, Computer Sciences/* (algorithms, Web, Networks)*/, Mathematics /*(algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics)*/, Physics /*(point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)*/
           
-          Project management (Steering, risk, SWOT, PDCA, critical path, indicators), Marketing, Finance, Communication, Awareness of energy and climate issues, Agile Management (applied during a project)
+          Project management /*(Steering, risk, SWOT, PDCA, critical path, indicators)*/, Marketing, Finance, Communication/*, Awareness of energy and climate issues*/, Agile Management (applied during a project)
           ]),
         ))
+        /*
         #set text(size: sizes.text-s1)
         // --- CPGE ---
         #grid(
@@ -321,10 +322,10 @@ to your project folder if you use the Typst web app.
           Mathematics (algebra, analysis, probability), Physics (electronics, mechanics, optics, electromagnetism, thermodynamics, Elements of statistical thermodynamics) and Engineering (programming, electronics)
           ]),
         ))
-        #v(5pt)
+        #v(5pt)*/
 
       ]
-      
+      /*
       // --- LEVEL 1: School (Slightly indented under the "Education" title) ---
       #pad(left: 0.5em)[
         #grid(
@@ -358,7 +359,7 @@ to your project folder if you use the Typst web app.
             - Specialization in Life and Earth Sciences (SVT): Coursework in biology and geosciences, providing a strong foundation in natural sciences and scientific reasoning
           ]),
         ))
-      ]
+      ]*/
 
     ]
 
@@ -408,7 +409,7 @@ to your project folder if you use the Typst web app.
         #link("https://github.com/Moussycat/Desk_pomodoro")[_GitHub repository in English_], Electronics engineering, 3D printing, Creativity, ESP32, Display, LVGL
         ]
         
-
+        /*
         #pad(left: 1em)[
           #grid(
           columns: (1fr, auto),
@@ -430,7 +431,7 @@ to your project folder if you use the Typst web app.
         #highlight[Skills used:]
           
         Private GitHub repository, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Minitel, Linux, 3D printing, Creativity, Visual design
-      ]
+      ]*/
 
       #pad(left: 1em)[
           #grid(
@@ -490,17 +491,18 @@ to your project folder if you use the Typst web app.
           #set text(size: sizes.text-s2)
           #icon-list((
             (icon: "", text: [
-              - Stimulated discussion on prejudices against women
+              /*- Stimulated discussion on prejudices against women
               - Reflecting on their experiences and feelings regarding the subject
               - Raising awareness of stereotypes amongst students and adults (parents/teachers)
-              - Highlighting women who have made significant contributions to science]),
-          ))
-          I promote women in STEM because I believe everyone should have the opportunity to pursue an interest in science and engineering without being held back by stereotypes.
+              - Highlighting women who have made significant contributions to science*/
+              I promote women in STEM because I believe everyone should have the opportunity to pursue an interest in science and engineering without being held back by stereotypes.
           Having been fortunate enough to have mentors who showed me that it was possible to think outside the box, I now want to pass on this message so that more women can envision themselves as engineers, innovators, and leaders in these fields.
+              ]),
+          ))
         ],
       )
 
-      #section-element-advanced(
+      /*#section-element-advanced(
         title: "Communication Officer, Astronomy Association",
         icon: fa-icon("user-astronaut"),
         [
@@ -514,9 +516,9 @@ to your project folder if you use the Typst web app.
             ]),
           ))
         ],
-      )
+      )*/
 
-      #section-element-advanced(
+      /*#section-element-advanced(
         title: "Vice-President, Equipment repair Association",
         icon: fa-icon("hammer"),
         [
@@ -529,7 +531,7 @@ to your project folder if you use the Typst web app.
             ]),
           ))
         ],
-      )
+      )*/
 
 
     ]
