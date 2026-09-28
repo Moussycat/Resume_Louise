@@ -24,7 +24,7 @@ to your project folder if you use the Typst web app.
   sidebar-position: "left",
   sidebar: [
     = Louise POGU
-    ==== Electronics Engineer
+    ==== Analog Electronics Engineer
 
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:louise.pogu@gmail.com")[louise.pogu\@gmail.com]),
@@ -121,6 +121,7 @@ to your project folder if you use the Typst web app.
           "ADS (Advanced Design System)",
           "Git",
           "Ansys HFSS",
+          "MATLAB",
           "Microsoft Office Suite",
           "Canva",
           "Typst",
@@ -214,8 +215,8 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [Conducted functional testing of newly manufactured low-to-high voltage converter boards for the Mirage 2000-5, on non-automated test benches to identify defects and ensure product reliability.
             
             - Diagnosed and analyzed anomalies on newly produced boards, determining root causes for previously undocumented issues/*R&D, Test*/
-            - Proposed and implemented corrective actions to resolve identified defects, ensuring optimal performance/*R&D, Test*/
-            - Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended mitigation strategies/*R&D*/
+            //- Proposed and implemented corrective actions to resolve identified defects, ensuring optimal performance/*R&D, Test*/
+            //- Documented recurring failures in a structured Excel database, including detailed descriptions, root causes, and recommended mitigation strategies/*R&D*/
             - Developed troubleshooting guidelines to streamline future diagnostics and reduce downtime/*R&D, Test*/
 
             ]),
@@ -236,11 +237,11 @@ to your project folder if you use the Typst web app.
           #icon-list((
             (icon: "", text: [Authored comprehensive technical documentation to introduce a previously unused technology to the company. The goal was to enable engineers to evaluate the feasibility and potential benefits of integrating a new converter topology into their products. This is a specific way of connecting electronic components (coils, switches, capacitors) within a power circuit.
             - Conducted a theoretical study of a non-inverting 4-switch buck-boost topology, analyzing its behavior and characteristics/*R&D*/
-            - Derived duty cycle ratios for different phases and assessed their impact on circuit performance/*R&D*/
-            - Calculated switching and conduction losses, providing critical insights into efficiency and thermal management/*R&D*/
-            - Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/
+            // Derived duty cycle ratios for different phases and assessed their impact on circuit performance/*R&D*/
+            //- Calculated switching and conduction losses, providing critical insights into efficiency and thermal management/*R&D*/
+            //- Developed mathematical equations for duty cycles with fixed parameters, enabling precise control and optimization/*R&D*/
             - Designed a tool to optimize duty cycles for each phase, improving system performance/*R&D*/
-            - Created calculation spreadsheet to evaluate switching losses in the ideal configuration/*R&D*/
+            //- Created calculation spreadsheet to evaluate switching losses in the ideal configuration/*R&D*/
             ]),
             (icon: "",text: [#highlight[Skills used:]
 
@@ -281,9 +282,9 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Analog electronics design( LTspice), Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
+          Analog electronics design /*(LTspice)*/, Radio Frequency, Microwave circuits /*(Ansys HFSS, ADS)*/, Patch antenna design, Embedded systems, Communication protocols, /*Brushless motors,*/ RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
 
-          Crisis Management, Change Management, Economic intelligence, Ethics, Employment law
+          Crisis Management, Change Management, Economic intelligence, Ethics//, Employment law
           ]),
         ))
 
@@ -299,12 +300,12 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Electronics design, Power electronics, Radio frequency, FPGA (Verilog, VHDL), Analog electronics, Digital electronics, Computer Sciences (algorithms, Web, Networks), Mathematics (algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics), Physical sciences (point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
+          Electronics design, Power electronics, Radio frequency, FPGA /*(Verilog, VHDL)*/, Analog electronics, Digital electronics, Computer Sciences /*(algorithms, Web, Networks)*/, Mathematics /*(algebra, analysis, series, differential equations, Fourier, Laplace, probability, statistics)*/, Physical sciences //(point mechanics, electromagnetism, thermodynamics, waves, optics, electronics components)
           
-          Project management (Steering, risk, SWOT, PDCA, critical path, indicators), Marketing, Finance, Communication, Awareness of energy and climate issues, Agile Management (applied during a project)
+          Project management /*(Steering, risk, SWOT, PDCA, critical path, indicators), Marketing, Finance*/, Communication,/* Awareness of energy and climate issues,*/ Agile Management //(applied during a project)
           ]),
         ))
-        #set text(size: sizes.text-s1)
+        /*#set text(size: sizes.text-s1)
         // --- CPGE ---
         #grid(
           columns: (1fr, auto),
@@ -321,12 +322,12 @@ to your project folder if you use the Typst web app.
           Mathematics (algebra, analysis, probability), Physics (electronics, mechanics, optics, electromagnetism, thermodynamics, Elements of statistical thermodynamics) and Engineering (programming, electronics)
           ]),
         ))
-        #v(5pt)
+        #v(5pt)*/
 
       ]
       
       // --- LEVEL 1: School (Slightly indented under the "Education" title) ---
-      #pad(left: 0.5em)[
+      /*#pad(left: 0.5em)[
         #grid(
           columns: (1fr, auto),
           align: (left, right),
@@ -358,7 +359,7 @@ to your project folder if you use the Typst web app.
             - Specialization in Life and Earth Sciences (SVT): Coursework in biology and geosciences, providing a strong foundation in natural sciences and scientific reasoning
           ]),
         ))
-      ]
+      ]*/
 
     ]
 
@@ -400,7 +401,7 @@ to your project folder if you use the Typst web app.
         #set text(size: sizes.text-s2)
         #icon-list((
           (icon: "house-chimney", text: [Pomodoro is a time-management method to improve productivity. It involves four cycles of 25-30 minutes work, 5-10 minute breaks, before taking a final 30 minutes break.
-          To expand my skills in embedded electronics, I wanted to learn a new open-source graphics library for screens, LVGL, and this project was the perfect way to put it to use. As I wanted to have this device on my desktop to avoid using my phone or watch, I decided to create a little work companion. This project is currently in development. 
+          To expand my skills in embedded electronics, I wanted to learn a new open-source graphics library for screens, LVGL, and this project was the perfect way to put it to use./* As I wanted to have this device on my desktop to avoid using my phone or watch, I decided to create a little work companion.*/ This project is currently in development. 
           ]),
         ))
         #highlight[Skills used:]
@@ -409,7 +410,7 @@ to your project folder if you use the Typst web app.
         ]
         
 
-        #pad(left: 1em)[
+        /*#pad(left: 1em)[
           #grid(
           columns: (1fr, auto),
           align: (left, right),
@@ -430,7 +431,7 @@ to your project folder if you use the Typst web app.
         #highlight[Skills used:]
           
         Private GitHub repository, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Minitel, Linux, 3D printing, Creativity, Visual design
-      ]
+      ]*/
 
       #pad(left: 1em)[
           #grid(
@@ -447,12 +448,12 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "graduation-cap", text: [We wanted to create a smart aquatic management system with long-range  and low-power communication characteristics, it was decided to use LoRaWAN.
           
-          This group project resulted in the development of two key modules: an energy-autonomous outdoor module, fitted with sensors to monitor pH, water temperature and ambient air temperature, and equipped with a battery level indicator to ensure uninterrupted operation. It transmitted all this information to the mains-powered base station module, which received and processed the data, providing a user-friendly visual interface that centralises all information relating to the pool and the weather conditions at the base station’s location.
+          This group project resulted in the development of two key modules: an energy-autonomous outdoor module, fitted with sensors to monitor pH, water temperature and ambient air temperature, and equipped with a battery level indicator to ensure uninterrupted operation. It transmitted all this information to the mains-powered base station module, which received and processed the data, providing a user-friendly visual interface. //that centralises all information relating to the pool and the weather conditions at the base station’s location.
 ]),
         ))
         #highlight[Skills used:]
           
-        #link("https://github.com/Moussycat/Projet_Neptune_Sense")[_GitHub repository in French_], Management, Embedded systems, PCB design, Computer engineering, 3D printing, Altium, Arduino, Canva, LoRaWAN, ESP32, STM32WL55, MQTT, Meteo API
+        #link("https://github.com/Moussycat/Projet_Neptune_Sense")[_GitHub repository in French_], Management, Embedded systems, PCB design, Computer engineering, 3D printing, Altium, Arduino, Canva, LoRaWAN, ESP32, STM32WL55, MQTT, Meteo API, BMS, Solar panels
       ]
       /* 
       */
@@ -471,7 +472,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "graduation-cap", text: [Inspired by the need to prevent tragic incidents of children being left in vehicles, Little Travellers wasn't just about technical feasibility, it was about creating a solution with real-world impact. We developed an RFID-based system that detects the presence of a child in a car seat and alerts the driver via the vehicle’s dashboard.
 
-          To ensure compliance with safety and performance standards, I analysed the Euro NCAP requirements (child occupant protection) and carried out a review of the state of the art in existing RFID solutions, identifying best practices and potential improvements. We designed and built two prototypes: a tag integrated into the child seat to detect  presence, and a dashboard interface to display information and allow users to control the system (on/off). Through close collaboration with the team, we ensured seamless integration between the hardware and the user interface, resulting in a functional and user-friendly proof of concept. 
+          To ensure compliance with safety and performance standards, I analysed the Euro NCAP requirements (child occupant protection) and carried out a review of the state of the art in existing RFID solutions, identifying best practices and potential improvements. We designed and built two prototypes: a tag integrated into the child seat to detect  presence, and a dashboard interface to display information and allow users to control the system (on/off).// Through close collaboration with the team, we ensured seamless integration between the hardware and the user interface, resulting in a functional and user-friendly proof of concept. 
           ]),
         ))
         #highlight[Skills used:]
@@ -495,12 +496,12 @@ to your project folder if you use the Typst web app.
               - Raising awareness of stereotypes amongst students and adults (parents/teachers)
               - Highlighting women who have made significant contributions to science]),
           ))
-          I promote women in STEM because I believe everyone should have the opportunity to pursue an interest in science and engineering without being held back by stereotypes.
-          Having been fortunate enough to have mentors who showed me that it was possible to think outside the box, I now want to pass on this message so that more women can envision themselves as engineers, innovators, and leaders in these fields.
+          //I promote women in STEM because I believe everyone should have the opportunity to pursue an interest in science and engineering without being held back by stereotypes.
+          //Having been fortunate enough to have mentors who showed me that it was possible to think outside the box, I now want to pass on this message so that more women can envision themselves as engineers, innovators, and leaders in these fields.
         ],
       )
 
-      #section-element-advanced(
+      /*#section-element-advanced(
         title: "Communication Officer, Astronomy Association",
         icon: fa-icon("user-astronaut"),
         [
@@ -529,7 +530,7 @@ to your project folder if you use the Typst web app.
             ]),
           ))
         ],
-      )
+      )*/
 
 
     ]
