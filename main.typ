@@ -100,6 +100,7 @@ to your project folder if you use the Typst web app.
         icon: "code",
         skills: (
           "Embedded C",
+          "C++",
           "Python",
           "VBA",
           "Assembly Language",
@@ -112,7 +113,7 @@ to your project folder if you use the Typst web app.
         name: "Software",
         icon: "desktop",
         skills: (
-          "Altium",
+          "Altium Designer",
           "KiCad",
           "Cadence Virtuoso AMS Designer",
           "LTspice",
@@ -140,6 +141,20 @@ to your project folder if you use the Typst web app.
           "Management",
           "Environmental Impact",
           "Communication"
+        )
+      )
+      #skill-group(
+        name: "Cognitive",
+        icon: "brain",
+        skills: (
+          "Rigor",
+          "Curiosity",
+          "Perseverance",
+          "Learnability",
+          "Analytical thinking",
+          "Critical thinking",
+          "Data-driven decision-making",
+          "Complex problem-solving"
         )
       )
     ]
@@ -281,7 +296,7 @@ to your project folder if you use the Typst web app.
         #icon-list((
           (icon: "person-chalkboard", text: [_Relevant courses:_ 
           
-          Analog electronics design( LTspice), Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
+          Analog electronics design (LTspice), Radio Frequency, Microwave circuits (Ansys HFSS, ADS), Patch antenna design, Embedded systems, Communication protocols, Brushless motors, RFID, EMC fundamentals, Battery, Energy harvesting, Multiphysics systems
 
           Crisis Management, Change Management, Economic intelligence, Ethics, Employment law
           ]),
@@ -429,7 +444,7 @@ to your project folder if you use the Typst web app.
         ))
         #highlight[Skills used:]
           
-        Private GitHub repository, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Minitel, Linux, 3D printing, Creativity, Visual design
+        Private GitHub repository, Escape Game design, PCB design, Electronic engineering, Computer engineering, Mathematics, Physics, Minitel, Linux, Altium Designer, 3D printing, Creativity, Visual design
       ]
 
       #pad(left: 1em)[
@@ -452,7 +467,7 @@ to your project folder if you use the Typst web app.
         ))
         #highlight[Skills used:]
           
-        #link("https://github.com/Moussycat/Projet_Neptune_Sense")[_GitHub repository in French_], Management, Embedded systems, PCB design, Computer engineering, 3D printing, Altium, Arduino, Canva, LoRaWAN, ESP32, STM32WL55, MQTT, Meteo API
+        #link("https://github.com/Moussycat/Projet_Neptune_Sense")[_GitHub repository in French_], Management, Embedded systems, PCB design, Computer engineering, 3D printing, Altium Designer, Arduino, Canva, LoRaWAN, ESP32, STM32WL55, MQTT, Meteo API
       ]
       /* 
       */
