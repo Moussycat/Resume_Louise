@@ -24,7 +24,7 @@ to your project folder if you use the Typst web app.
   sidebar-position: "left",
   sidebar: [
     = Louise POGU
-    ==== RF Engineer
+    ==== Electrical Engineer
 
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:louise.pogu@gmail.com")[louise.pogu\@gmail.com]),
@@ -183,10 +183,10 @@ to your project folder if you use the Typst web app.
             (icon: "", text: [
             - Researched and selected an optimal architecture to meet the project’s technical requirements, including a investing phase to master new concepts and technologies/*R&D*/
             - Evaluated and selected components (MMICs, filters, switches, etc.) based on performance validation criteria to achieve maximum efficiency/*RF, PCB Design*/
-            - Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation, R&D*/
+            //- Developed a VBA-based RF link budget simulator to model and optimize system performance, enabling data-driven component selection/*RF, Programmation, R&D*/
             - Conducted a physical pre-implementation of the design to validate feasibility and spatial constraints before finalizing the layout/*PCB Design, R&D*/
             - Optimized PCB routing using KiCad, following to high-frequency design best practice to minimize signal loss and interference/*PCB Design, R&D*/
-            //- Created comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications/*R&D*/
+            - Created comprehensive technical documentation for engineers, technicians, and managers, detailing the design process, performance metrics, and project potential for defense applications/*R&D*/
             ]),
             (icon: "" ,text: [#highlight[Skills used:]
             
