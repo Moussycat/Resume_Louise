@@ -24,7 +24,7 @@ to your project folder if you use the Typst web app.
   sidebar-position: "left",
   sidebar: [
     = Louise POGU
-    ==== Electronics Engineer
+    ==== RF Engineer
 
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:louise.pogu@gmail.com")[louise.pogu\@gmail.com]),
